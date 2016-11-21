@@ -12,7 +12,11 @@
   <backgrounds name="background"/>
   <paths name="paths"/>
   <scripts name="scripts">
-    <script>scripts\scr_Input.gml</script>
+    <script>scripts\scr_input.gml</script>
+    <script>scripts\scr_positiveImpact.gml</script>
+    <script>scripts\scr_negativeImpact.gml</script>
+    <script>scripts\scr_init.gml</script>
+    <script>scripts\scr_setImpact.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_central</object>
