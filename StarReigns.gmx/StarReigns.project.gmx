@@ -18,9 +18,13 @@
     <script>scripts\scr_init.gml</script>
     <script>scripts\scr_setImpact.gml</script>
   </scripts>
+  <fonts name="fonts">
+    <font>fonts\fnt_basic</font>
+  </fonts>
   <objects name="objects">
     <object>objects\obj_central</object>
     <object>objects\obj_shot</object>
+    <object>objects\obj_hud</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_main</room>
