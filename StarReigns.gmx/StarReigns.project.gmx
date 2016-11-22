@@ -6,8 +6,12 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\spr_central</sprite>
     <sprite>sprites\spr_shot</sprite>
+    <sprite>sprites\spr_basicCard</sprite>
+    <sprite>sprites\spr_angry</sprite>
+    <sprite>sprites\spr_cooked</sprite>
+    <sprite>sprites\spr_suprise</sprite>
+    <sprite>sprites\spr_married</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -15,16 +19,18 @@
     <script>scripts\scr_input.gml</script>
     <script>scripts\scr_positiveImpact.gml</script>
     <script>scripts\scr_negativeImpact.gml</script>
-    <script>scripts\scr_init.gml</script>
-    <script>scripts\scr_setImpact.gml</script>
+    <script>scripts\scr_deal.gml</script>
+    <script>scripts\scr_buildDeck.gml</script>
+    <script>scripts\scr_initCard.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_basic</font>
   </fonts>
   <objects name="objects">
-    <object>objects\obj_central</object>
     <object>objects\obj_shot</object>
     <object>objects\obj_hud</object>
+    <object>objects\obj_dealer</object>
+    <object>objects\obj_basicCard</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_main</room>
