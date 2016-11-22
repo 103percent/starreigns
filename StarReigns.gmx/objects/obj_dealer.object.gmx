@@ -30,6 +30,7 @@
 waittime = 1
 decked = false;
 arr_deck = scr_buildDeck();
+cardcount = (array_height_2d(arr_deck) - 1);
 alarm[0] = 30*waittime;
 </string>
           </argument>
