@@ -1,15 +1,25 @@
 ///scr_buildDeck
 
-arr_deck[2] = obj_supriseCard;
-arr_deck[1] = obj_angryCard;
-arr_deck[0] = obj_basicCard;
+//grab all cards
+var i = 0;
+ds_cardlist = ds_list_create();
+while (i < 1000)
+{
+    if !object_exists(i) break;
+    if object_is_ancestor(i, obj_basicCard) ds_list_add(ds_cardlist, i);
+    i++;
+}
 
+//build deck from cards
+ds_deck = ds_list_create();
+for (q = 0; q < (ds_list_size(ds_cardlist)); q++)
+{
+ ds_list_add(ds_deck, (ds_list_find_value(ds_cardlist, q)))
+}
 
 //Set deck size
-cardcount = 2;
+cardcount = (ds_list_size(ds_deck) -1);
 
-/*
-This is the better way of setting deck size, but for some reason throws an error. 
-Need to look into it more. 
-cardcount = array_length_1d(arr_deck);
-*/
+
+//cardcount = (array_length_1d(arr_deck) - 1);
+
