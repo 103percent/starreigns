@@ -55,7 +55,7 @@ alarm[0] = 30*waittime;
             <kind>1</kind>
             <string>/// deal a card
 
-scr_deal();
+scr_deal(arr_deck);
 </string>
           </argument>
         </arguments>
