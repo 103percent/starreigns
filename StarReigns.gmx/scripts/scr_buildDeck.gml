@@ -1,4 +1,4 @@
-///scr_buildDeck
+///scr_buildDeck (returns built array)
 
 //grab all base cards
 var i = 0;
@@ -11,17 +11,18 @@ while (i < 1000)
 }
 
 //build array from cards
-arr_deck[0, 0] = 0;
+arr_built[0, 0] = 0;
 for (q = 0; q < (ds_list_size(ds_cardlist)); q++)
 {
-    arr_deck[q, 0] = scr_getStat(ds_list_find_value(ds_cardlist, q), 0);
-    arr_deck[q, 1] = scr_getStat(ds_list_find_value(ds_cardlist, q), 1);
-    arr_deck[q, 2] = scr_getStat(ds_list_find_value(ds_cardlist, q), 2);
-    arr_deck[q, 3] = ds_list_find_value(ds_cardlist, q);
+    arr_built[q, 0] = scr_getStat(ds_list_find_value(ds_cardlist, q), 0);
+    arr_built[q, 1] = scr_getStat(ds_list_find_value(ds_cardlist, q), 1);
+    arr_built[q, 2] = scr_getStat(ds_list_find_value(ds_cardlist, q), 2);
+    arr_built[q, 3] = ds_list_find_value(ds_cardlist, q);
 }
 
-arr_q_deck = scr_fetchCard('Testy4', arr_deck, 1);
+arr_q_deck = scr_fetchCard('Testy4', arr_built, 1);
 show_debug_message(string(array_height_2d(arr_q_deck)) + "  " + string(array_length_2d(arr_q_deck, 0)));
 
-cardcount = (array_height_2d(arr_deck) - 1);
+cardcount = (array_height_2d(arr_built) - 1);
 
+return(arr_built)

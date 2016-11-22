@@ -27,6 +27,7 @@
     <script>scripts\scr_killsave.gml</script>
     <script>scripts\scr_getStat.gml</script>
     <script>scripts\scr_fetchCard.gml</script>
+    <script>scripts\scr_init.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_basic</font>
@@ -43,9 +44,7 @@
       <object>objects\obj_cookedCard</object>
     </objects>
   </objects>
-  <timelines name="timelines">
-    <timeline>timelines\timeline0</timeline>
-  </timelines>
+  <timelines name="timelines"/>
   <rooms name="rooms">
     <room>rooms\rm_main</room>
   </rooms>

@@ -25,9 +25,11 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>waittime = 1
+            <string>///setup basic variables
+
+waittime = 1
 decked = false;
-scr_buildDeck();
+arr_deck = scr_buildDeck();
 alarm[0] = 30*waittime;
 </string>
           </argument>
@@ -51,7 +53,9 @@ alarm[0] = 30*waittime;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>scr_deal();
+            <string>/// deal a card
+
+scr_deal();
 </string>
           </argument>
         </arguments>
@@ -74,7 +78,7 @@ alarm[0] = 30*waittime;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>// Check for card, then deal.
+            <string>/// Check for card, then start the countdown to dealing.
 
 if !global.dealt
 {
@@ -103,7 +107,9 @@ if !global.dealt
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_text(x,y, "cards in deck = " + string(cardcount+1));
+            <string>///display 'decked' if decked, and some debug stuff
+
+draw_text(x,y, "cards in deck = " + string(cardcount+1));
 
 if decked
     {
