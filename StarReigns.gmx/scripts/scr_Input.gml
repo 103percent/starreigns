@@ -20,7 +20,7 @@ if swiping
         }
         else
         {
-            scr_positiveImpact(arr_positive);
+            scr_positiveImpact();
         }
 
   swiping = false;
