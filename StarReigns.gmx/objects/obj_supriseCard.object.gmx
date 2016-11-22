@@ -40,9 +40,7 @@
           <argument>
             <kind>1</kind>
             <string>//set new Properties
-cardset = "suprise";
 cardstring = "Holy Shit!";
-tags = "the fear";
 
 // set new impacts
 arr_positive[3] = 50
