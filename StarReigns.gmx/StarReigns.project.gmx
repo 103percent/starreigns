@@ -44,7 +44,6 @@
       <object>objects\obj_cookedCard</object>
     </objects>
   </objects>
-  <timelines name="timelines"/>
   <rooms name="rooms">
     <room>rooms\rm_main</room>
   </rooms>
