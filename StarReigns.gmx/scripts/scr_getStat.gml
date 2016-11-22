@@ -11,8 +11,8 @@ switch (cardindex)
 {
  case obj_marriedCard:  weight = 1; tag = 'Testy1'; set = 'The Other Half'; break;
  case obj_angryCard:    weight = 50; tag = 'Testy2'; set = 'Beast Mode'; break;
- case obj_supriseCard:  weight = 1; tag = 'Testy3'; set = 'The Fear'; break;
- case obj_cookedCard:   weight = 50; tag = 'Testy4'; set = 'Finger Licking Good'; break;
+ case obj_supriseCard:  weight = 1; tag = 'Testy4'; set = 'The Fear'; break;
+ case obj_cookedCard:   weight = 50; tag = 'Testy3'; set = 'Finger Licking Good'; break;
 }
 
 switch(stat_index)

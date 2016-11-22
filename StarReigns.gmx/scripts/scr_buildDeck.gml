@@ -20,7 +20,7 @@ for (q = 0; q < (ds_list_size(ds_cardlist)); q++)
     arr_built[q, 3] = ds_list_find_value(ds_cardlist, q);
 }
 
-arr_q_deck = scr_pruneDeck(arr_built, 'Testy4', 1, 'Beast Mode', 2);
+arr_q_deck = scr_pruneDeck(arr_built, 'Testy1', 1, 'Beast Mode', 2, 'Testy3', 1);
 show_debug_message(string(array_height_2d(arr_q_deck)) + "  " + string(array_length_2d(arr_q_deck, 0)));
 
 return(arr_built)

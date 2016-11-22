@@ -5,6 +5,7 @@ swiping = false;
 dwn_x = 0;
 up_x = 0;
 
+
 //set default properties
 cardset = "basic";
 cardstring = "Placeholder Card Text Here";

@@ -8,6 +8,8 @@ type = 1;
 temp = 0;
 arraylength = 4;
 arr_return[0, 0] = 0;
+
+
 //default for extra args
 match2 = 'default';
 type2 = 1;
@@ -26,14 +28,25 @@ match = argument[1];
 type = argument[2];
 arraylenght = array_height_2d(search);
 }
-else if argument_count > 4
+else if argument_count = 5
 {
+search = argument[0];
+match = argument[1];
+type = argument[2];
+arraylenght = array_height_2d(search);
 match2 = argument[3];
 type2 = argument[4];
 twosets = true;
 }
 else if argument_count > 6
 {
+search = argument[0];
+match = argument[1];
+type = argument[2];
+arraylenght = array_height_2d(search);
+match2 = argument[3];
+type2 = argument[4];
+twosets = true;
 match3 = argument[5];
 type3 = argument[6];
 threesets = true;
@@ -65,7 +78,7 @@ else if twosets && !threesets
     var q;
     for (q = 0; q < array_height_2d(search); q++)
     {
-        if match2 == search[q, type2]
+        if (match == search[q, type] || match2 == search[q, type2])
         {
             var i;
             for (i = 0; i < 4; i++)
@@ -78,7 +91,7 @@ else if twosets && !threesets
 }
 
 //if we're matching three criteria
-else if twosets && threesets
+else if threesets
 {
      var q;
     for (q = 0; q < array_height_2d(search); q++)
