@@ -14,15 +14,13 @@ while (i < 1000)
 arr_built[0, 0] = 0;
 for (q = 0; q < (ds_list_size(ds_cardlist)); q++)
 {
-    arr_built[q, 0] = scr_getStat(ds_list_find_value(ds_cardlist, q), 0);
-    arr_built[q, 1] = scr_getStat(ds_list_find_value(ds_cardlist, q), 1);
-    arr_built[q, 2] = scr_getStat(ds_list_find_value(ds_cardlist, q), 2);
+    arr_built[q, 0] = scr_getStat(ds_list_find_value(ds_cardlist, q), 0); // weight
+    arr_built[q, 1] = scr_getStat(ds_list_find_value(ds_cardlist, q), 1); // tag
+    arr_built[q, 2] = scr_getStat(ds_list_find_value(ds_cardlist, q), 2); // set
     arr_built[q, 3] = ds_list_find_value(ds_cardlist, q);
 }
 
-arr_q_deck = scr_fetchCard('Testy4', arr_built, 1);
+arr_q_deck = scr_pruneDeck(arr_built, 'Testy4', 1, 'Beast Mode', 2);
 show_debug_message(string(array_height_2d(arr_q_deck)) + "  " + string(array_length_2d(arr_q_deck, 0)));
-
-cardcount = (array_height_2d(arr_built) - 1);
 
 return(arr_built)
