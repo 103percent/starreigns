@@ -14,10 +14,7 @@
 randomize();
 
 //Setup Globals
-global.core0 = 100;
-global.core1 = 100;
-global.core2 = 100;
-global.core3 = 100;
+scr_loadgame();
 global.dealt = false;</code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>

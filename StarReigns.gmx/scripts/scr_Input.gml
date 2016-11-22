@@ -25,6 +25,6 @@ if swiping
 
   swiping = false;
 }
-
+scr_killsave();
 
 

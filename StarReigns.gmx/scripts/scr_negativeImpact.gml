@@ -14,7 +14,8 @@ shot = instance_create(x, y, obj_shot)
      hspeed = -10
     }
 
-// Destroyself and trigger dealer
+// save results, Destroyself and trigger dealer
 
 global.dealt = false;
-instance_destroy();
+scr_savegame();
+instance_destroy();   
