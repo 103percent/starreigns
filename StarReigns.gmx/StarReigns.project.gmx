@@ -26,6 +26,7 @@
     <script>scripts\scr_loadgame.gml</script>
     <script>scripts\scr_killsave.gml</script>
     <script>scripts\scr_getStat.gml</script>
+    <script>scripts\scr_fetchCard.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_basic</font>
@@ -39,8 +40,12 @@
       <object>objects\obj_marriedCard</object>
       <object>objects\obj_angryCard</object>
       <object>objects\obj_supriseCard</object>
+      <object>objects\obj_cookedCard</object>
     </objects>
   </objects>
+  <timelines name="timelines">
+    <timeline>timelines\timeline0</timeline>
+  </timelines>
   <rooms name="rooms">
     <room>rooms\rm_main</room>
   </rooms>

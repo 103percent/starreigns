@@ -39,7 +39,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//set new Properties
+            <string>///Set Properties
+
+//set new Properties
 cardstring = "Wedding bells are here!";
 
 // set new impacts
