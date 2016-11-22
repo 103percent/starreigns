@@ -25,7 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>scr_initCard();
+            <string>///Init basic details
+
+scr_initCard();
 </string>
           </argument>
         </arguments>
@@ -48,7 +50,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>scr_input();
+            <string>///Call input script
+scr_input();
 
 </string>
           </argument>
@@ -72,7 +75,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//Draw sprite
+            <string>///Draw self and test properties
+
+//Draw sprite
 draw_self();
 
 
