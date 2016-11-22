@@ -10,7 +10,11 @@
   <persistent>0</persistent>
   <colour>12632256</colour>
   <showcolour>-1</showcolour>
-  <code>global.core0 = 100;
+  <code>// Ensure fresh seed
+randomize();
+
+//Setup Globals
+global.core0 = 100;
 global.core1 = 100;
 global.core2 = 100;
 global.core3 = 100;

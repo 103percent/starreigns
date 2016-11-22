@@ -30,7 +30,11 @@
     <object>objects\obj_shot</object>
     <object>objects\obj_hud</object>
     <object>objects\obj_dealer</object>
-    <object>objects\obj_basicCard</object>
+    <objects name="cards">
+      <object>objects\obj_basicCard</object>
+      <object>objects\obj_angryCard</object>
+      <object>objects\obj_supriseCard</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_main</room>
