@@ -52,7 +52,6 @@ alarm[0] = 30*waittime;
           <argument>
             <kind>1</kind>
             <string>scr_deal();
-
 </string>
           </argument>
         </arguments>
@@ -105,8 +104,6 @@ if !global.dealt
           <argument>
             <kind>1</kind>
             <string>draw_text(x,y, "cards in deck = " + string(cardcount+1));
-
-draw_text(x, y -30, "var cardcount = " + string(cardcount));
 
 if decked
     {

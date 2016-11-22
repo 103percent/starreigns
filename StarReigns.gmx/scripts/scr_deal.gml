@@ -1,7 +1,15 @@
 /// scr_deal()
 
-//Pick top card
 
+// Basic Array Method
+
+rand = irandom_range(0, arr_cardcount);
+topcard = arr_deck[rand, 1];
+topcardweight = arr_deck[rand, 0];
+instance_create(room_width/2, room_height/2 - 160, topcard)
+
+//DS_List Method (empties hand)
+/*
 if !ds_list_empty(ds_deck)
 {
     ds_list_shuffle(ds_deck);
@@ -15,10 +23,8 @@ else
 {
     decked = true;
 }
+*/
+
+
 //Ensure dealt
 global.dealt = true;
-
-//Shuffle
-/*
-Call scr_buildDeck again?
-*/

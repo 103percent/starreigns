@@ -1,6 +1,6 @@
 ///scr_buildDeck
 
-//grab all cards
+//grab all base cards
 var i = 0;
 ds_cardlist = ds_list_create();
 while (i < 1000)
@@ -10,7 +10,15 @@ while (i < 1000)
     i++;
 }
 
-//build deck from cards
+//build array from cards
+arr_deck[0, 0] = 0;
+for (q = 0; q < (ds_list_size(ds_cardlist)); q++)
+{
+    arr_deck[q, 0] = scr_getWeight(ds_list_find_value(ds_cardlist, q));
+    arr_deck[q, 1] = ds_list_find_value(ds_cardlist, q);
+}
+
+//build ds_list from cards
 ds_deck = ds_list_create();
 for (q = 0; q < (ds_list_size(ds_cardlist)); q++)
 {
@@ -19,7 +27,6 @@ for (q = 0; q < (ds_list_size(ds_cardlist)); q++)
 
 //Set deck size
 cardcount = (ds_list_size(ds_deck) -1);
+arr_cardcount = (array_height_2d(arr_deck) - 1);
 
-
-//cardcount = (array_length_1d(arr_deck) - 1);
 

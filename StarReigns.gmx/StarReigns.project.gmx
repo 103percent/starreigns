@@ -25,6 +25,7 @@
     <script>scripts\scr_savegame.gml</script>
     <script>scripts\scr_loadgame.gml</script>
     <script>scripts\scr_killsave.gml</script>
+    <script>scripts\scr_getWeight.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_basic</font>
