@@ -13,7 +13,14 @@ shot = instance_create(x, y, obj_shot)
     {
      hspeed = -10
     }
-
+//Check deck effect
+if trigger_prune_neg
+{
+     obj_dealer.arr_deck = scr_pruneDeck(obj_dealer.arr_deck, neg_prune_cr1, neg_prune_tp1);
+}
+    
+    
+    
 // save results, Destroyself and trigger dealer
 
 global.dealt = false;

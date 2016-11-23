@@ -41,7 +41,13 @@
       <object>objects\obj_basicCard</object>
       <object>objects\obj_marriedCard</object>
       <object>objects\obj_angryCard</object>
+      <object>objects\obj_angryredCard</object>
+      <object>objects\obj_angryblueCard</object>
+      <object>objects\obj_angrygreenCard</object>
       <object>objects\obj_supriseCard</object>
+      <object>objects\obj_supriseredCard</object>
+      <object>objects\obj_supriseblueCard</object>
+      <object>objects\obj_suprisegreenCard</object>
       <object>objects\obj_cookedCard</object>
     </objects>
   </objects>

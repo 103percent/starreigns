@@ -110,12 +110,40 @@ if !global.dealt
             <kind>1</kind>
             <string>///display 'decked' if decked, and some debug stuff
 
-draw_text(x,y, "cards in deck = " + string(cardcount+1));
+draw_text(x,y, "cards in deck = " + string(array_height_2d(arr_deck)));
 
 if decked
     {
         draw_text (room_width/2, room_height/2 - 160, "DECKED!")
     }
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="9" enumb="13">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///prune deck
+
+
+arr_deck = scr_pruneDeck(arr_deck, 'Testy1', 1);
+
+
 </string>
           </argument>
         </arguments>

@@ -25,6 +25,16 @@ if swiping
 
   swiping = false;
 }
+
+if keyboard_check_pressed(vk_left)
+{
+ scr_negativeImpact();
+}
+if keyboard_check_pressed(vk_right)
+{
+ scr_positiveImpact();
+}
+
 scr_killsave();
 
 
