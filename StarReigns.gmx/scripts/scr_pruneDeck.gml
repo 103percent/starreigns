@@ -1,7 +1,7 @@
 ///scr_pruneDeck (Array to prune, Critera1, Type1, Criteria2, Type2, etc... type 1=tag 2=set, returns 2DArray)
 
 
-//set defaut values
+//set default values
 search = 1;
 match = 'default';
 type = 1;
@@ -24,15 +24,15 @@ if argument_count = 3
 search = argument[0];
 match = argument[1];
 type = argument[2];
-arraylenght = array_height_2d(search);
+arraylength = array_height_2d(search);
 }
-else if argument_count > 4
+else if argument_count = 5
 {
 match2 = argument[3];
 type2 = argument[4];
 twosets = true;
 }
-else if argument_count > 6
+else if argument_count = 7
 {
 match3 = argument[5];
 type3 = argument[6];

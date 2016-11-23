@@ -39,20 +39,5 @@ with dealtcard
         cardset = obj_dealer.cardset;
     }
 
-/* Basic Array Method
-
-rand = irandom_range(0, cardcount);
-topcard = deck[rand, 3];
-cardweight = deck[rand, 0];
-cardtag = deck[rand, 1];
-cardset = deck[rand, 2];
-dealtcard = instance_create(room_width/2, room_height/2 - 160, topcard)
-with dealtcard
-    {
-        tags = obj_dealer.cardtag;
-        cardset = obj_dealer.cardset;
-    }
-*/
-
 //Ensure dealt
 global.dealt = true;
