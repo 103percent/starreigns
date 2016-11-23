@@ -1,4 +1,4 @@
-///scr_pruneDeck (Array to prune, Critera1, Type1, Criteria2, Type2, etc... type 1=tag 2=set, returns 2DArray)
+///scr_pruneDeck(Array to prune, Critera1, Type1, Criteria2, etc... type 1=tag 2=set)
 
 
 //set defaut values
