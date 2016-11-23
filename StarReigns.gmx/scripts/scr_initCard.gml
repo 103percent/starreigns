@@ -4,7 +4,13 @@
 swiping = false;
 dwn_x = 0;
 up_x = 0;
-
+//set defaults for prune triggers
+trigger_prune_pos= false;
+trigger_prune_neg= false;
+pos_prune_cr1 = 'Testy1';  //first positive prune criteria to check
+pos_prune_tp1 = 1;         //first positive prune criteria type
+neg_prune_cr1 = 'Testy1';  //first negative prune criteria to check
+neg_prune_cr1 = 1;         //first negative prune criteria type
 
 //set default properties
 cardset = "basic";

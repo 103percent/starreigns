@@ -11,7 +11,7 @@ switch (cardindex)
 {
  case obj_marriedCard:      weight = 1; tag = 'Testy1'; set = 'The Other Half'; break;
  case obj_angryCard:        weight = 1; tag = 'Testy2'; set = 'Beast Mode'; break;
- case obj_angryredCard:     weight = 1; tag = 'Red'; set = 'Beast Mode'; break;
+ case obj_angryredCard:     weight = 100; tag = 'Red'; set = 'Beast Mode'; break;
  case obj_angryblueCard:    weight = 1; tag = 'Blue'; set = 'Beast Mode'; break;
  case obj_angrygreenCard:   weight = 1; tag = 'Green'; set = 'Beast Mode'; break;
  case obj_supriseCard:      weight = 1; tag = 'Testy4'; set = 'The Fear'; break;

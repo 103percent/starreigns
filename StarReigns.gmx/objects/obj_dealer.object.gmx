@@ -140,8 +140,10 @@ if decked
             <kind>1</kind>
             <string>///prune deck
 
-arr_pruned = scr_pruneDeck(arr_deck, 'Testy1', 1);
-arr_deck = arr_pruned;
+
+arr_deck = scr_pruneDeck(arr_deck, 'Testy1', 1);
+
+
 </string>
           </argument>
         </arguments>
