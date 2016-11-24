@@ -121,6 +121,31 @@ if decked
         </arguments>
       </action>
     </event>
+    <event eventtype="9" enumb="80">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Prune the Deck
+
+arr_deck = scr_pruneDeck(arr_deck, 'The Fear', 2);
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="9" enumb="66">
       <action>
         <libid>1</libid>
@@ -148,7 +173,7 @@ show_debug_message('Rebuilding Deck');
         </arguments>
       </action>
     </event>
-    <event eventtype="9" enumb="13">
+    <event eventtype="9" enumb="65">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -165,12 +190,9 @@ show_debug_message('Rebuilding Deck');
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///prune deck
+            <string>///add cards to the Deck
 
-
-arr_deck = scr_pruneDeck(arr_deck, 'Testy1', 1);
-
-
+arr_deck = scr_bulkDeck(arr_deck, 'Red', 1)
 </string>
           </argument>
         </arguments>

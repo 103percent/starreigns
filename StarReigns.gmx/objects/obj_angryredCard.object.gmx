@@ -45,12 +45,6 @@ image_blend = c_red;
 
 //set new Properties
 cardstring = "I'm so angry";
-trigger_prune_pos = true;
-trigger_prune_neg = true;
-pos_prune_cr1 = 'Testy1';
-pos_prune_tp1 = 1;
-neg_prune_cr1 = 'Testy1';
-neg_prune_tp1 = 1;
 
 
 // set new impacts

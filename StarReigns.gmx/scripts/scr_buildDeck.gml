@@ -18,7 +18,7 @@ for (q = 0; q < (ds_list_size(ds_cardlist)); q++)
     arr_built[q, 0] = scr_getStat(ds_list_find_value(ds_cardlist, q), 0); // weight
     arr_built[q, 1] = scr_getStat(ds_list_find_value(ds_cardlist, q), 1); // tag
     arr_built[q, 2] = scr_getStat(ds_list_find_value(ds_cardlist, q), 2); // set
-    arr_built[q, 3] = ds_list_find_value(ds_cardlist, q);
+    arr_built[q, 3] = ds_list_find_value(ds_cardlist, q);                 // object
 }
 
 return(arr_built)

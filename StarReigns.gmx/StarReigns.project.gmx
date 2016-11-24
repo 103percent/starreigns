@@ -29,6 +29,8 @@
     <script>scripts\scr_init.gml</script>
     <script>scripts\scr_pruneDeck.gml</script>
     <script>scripts\scr_setWeights.gml</script>
+    <script>scripts\scr_bulkDeck.gml</script>
+    <script>scripts\scr_limitDeck.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_basic</font>
