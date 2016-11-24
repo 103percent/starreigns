@@ -31,13 +31,13 @@ show_debug_message("Next Test!");
 
 var topcard = deck[rand, 3];
 var cardweight = deck[rand, 0];
-var cardtag = deck[rand, 1];
-var cardset = deck[rand, 2];
+var newtag = deck[rand, 1];
+var newset = deck[rand, 2];
 dealtcard = instance_create(room_width/2, room_height/2 - 160, topcard)
 with dealtcard
     {
-        tags = cardtag;
-        cardset = cardset;
+        tags = newtag;
+        cardset = newset;
     }
 
 //Ensure dealt
