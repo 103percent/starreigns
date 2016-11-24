@@ -1,4 +1,4 @@
-///scr_pruneDeck(Array to prune, Critera1 to remove, Type to remove 1=tag 2=set)
+///scr_pruneDeck(Array to prune, Critera1 to remove, Type to remove 1=tag 2=set 3=obj_name)
 
 
 //set default values

@@ -6,16 +6,17 @@ var type = argument2;
 var arr_decklist = scr_buildDeck();
 var present = false;
 var stat_count = 4;
+var out;
+var target_length = array_height_2d(target);
 var q;
 var p;
 var s;
 
 for (q = 0; q < array_height_2d(arr_decklist); q++)
-{
-    var target_length = array_height_2d(target);
-    
+{ 
     if arr_decklist[q, type] == criteria
     {
+        present = false;
         for (p = 0; p < target_length; p++)
         {
             if target[p, 3] == arr_decklist[q, 3]
@@ -27,11 +28,10 @@ for (q = 0; q < array_height_2d(arr_decklist); q++)
         {
           for (s = 0; s < stat_count; s++)
           {
-            target[target_length, p] = arr_decklist[q, p]
+            target[target_length, s] = arr_decklist[q, s]
           } 
         }
     }
 }
-
-
-return(target); 
+out = target
+return(out); 

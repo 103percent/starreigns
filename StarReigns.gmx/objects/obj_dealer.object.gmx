@@ -121,6 +121,33 @@ if decked
         </arguments>
       </action>
     </event>
+    <event eventtype="9" enumb="82">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Rebuilds deck
+
+arr_deck = scr_buildDeck();
+
+show_debug_message('Rebuilding Deck');
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="9" enumb="80">
       <action>
         <libid>1</libid>
@@ -140,7 +167,10 @@ if decked
             <kind>1</kind>
             <string>///Prune the Deck
 
-arr_deck = scr_pruneDeck(arr_deck, 'The Fear', 2);
+var crit = 'The Fear'
+arr_deck = scr_pruneDeck(arr_deck, crit, 2);
+
+show_debug_message('Removing cards matching = ' + crit);
 </string>
           </argument>
         </arguments>
@@ -163,36 +193,12 @@ arr_deck = scr_pruneDeck(arr_deck, 'The Fear', 2);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///rebuild deck
-
-arr_deck = scr_buildDeck();
-
-show_debug_message('Rebuilding Deck');
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="9" enumb="65">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>///add cards to the Deck
+            <string>///add cards to deck
+var crit = 'Red';
 
 arr_deck = scr_bulkDeck(arr_deck, 'Red', 1)
+
+show_debug_message('Adding cards matching = ' + crit);
 </string>
           </argument>
         </arguments>
