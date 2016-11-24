@@ -1,4 +1,4 @@
-///scr_pruneDeck(Array to prune, Critera1, Type1, Criteria2, etc... type 1=tag 2=set)
+///scr_pruneDeck(Array to prune, Critera1 to remove, Type1, Criteria2, etc... type 1=tag 2=set)
 
 
 //set default values
@@ -6,6 +6,7 @@ var search = 1;
 var match = 'default';
 var type = 1;
 var temp = 0;
+var stat_count = 4;
 var arraylength = 4;
 arr_return[0, 0] = 0;
 
@@ -59,10 +60,10 @@ if !twosets
     var q;
     for (q = 0; q < array_height_2d(search); q++)
     {
-        if match == search[q, type]
+        if match != search[q, type]
         {
             var i;
-            for (i = 0; i < 4; i++)
+            for (i = 0; i < stat_count; i++)
             {
                 arr_return[temp, i] = search[q, i]
             }
