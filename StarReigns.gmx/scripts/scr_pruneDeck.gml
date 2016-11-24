@@ -2,21 +2,21 @@
 
 
 //set default values
-search = 1;
-match = 'default';
-type = 1;
-temp = 0;
-arraylength = 4;
+var search = 1;
+var match = 'default';
+var type = 1;
+var temp = 0;
+var arraylength = 4;
 arr_return[0, 0] = 0;
 
 
 //default for extra args
-match2 = 'default';
-type2 = 1;
-match3 = 'default';
-type3 = 1;
-twosets = false;
-threesets = false;
+var match2 = 'default';
+var type2 = 1;
+var match3 = 'default';
+var type3 = 1;
+var twosets = false;
+var threesets = false;
 
 
 //parse the various arguments
@@ -108,7 +108,4 @@ else if threesets
     } 
 }
 
-show_debug_message('this many' + string(argument_count));
-show_debug_message('twosets is= ' + string(twosets));
-show_debug_message('match2 is= ' + string(match2) + 'type2 is= ' + string(type2));
 return (arr_return);

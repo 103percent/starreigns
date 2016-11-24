@@ -2,7 +2,7 @@
 
 //grab all base cards
 var i = 0;
-ds_cardlist = ds_list_create();
+var ds_cardlist = ds_list_create();
 while (i < 1000)
 {
     if !object_exists(i) break;
@@ -11,6 +11,7 @@ while (i < 1000)
 }
 
 //build array from cards
+var arr_built;
 arr_built[0, 0] = 0;
 for (q = 0; q < (ds_list_size(ds_cardlist)); q++)
 {
