@@ -50,7 +50,7 @@ trigger_prune_neg = true;
 pos_prune_cr1 = 'Testy1';
 pos_prune_tp1 = 1;
 neg_prune_cr1 = 'Testy1';
-neg_prune_cr1 = 1;
+neg_prune_tp1 = 1;
 
 
 // set new impacts
