@@ -39,6 +39,7 @@
     <object>objects\obj_dealer</object>
     <objects name="cards">
       <object>objects\obj_basicCard</object>
+      <object>objects\obj_setWeightTest</object>
       <object>objects\obj_marriedCard</object>
       <object>objects\obj_angryCard</object>
       <object>objects\obj_angryredCard</object>

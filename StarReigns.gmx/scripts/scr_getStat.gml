@@ -19,6 +19,7 @@ switch (cardindex)
  case obj_supriseblueCard:  weight = 50; tag = 'Blue'; set = 'The Fear'; break;
  case obj_suprisegreenCard: weight = 50; tag = 'Green'; set = 'The Fear'; break;
  case obj_cookedCard:       weight = 1; tag = 'Testy3'; set = 'Finger Licking Good'; break;
+ case obj_setWeightTest:    weight = -30; tag = 'FunctionTest'; set = 'Test Success'; break;
 }
 
 switch(stat_index)
