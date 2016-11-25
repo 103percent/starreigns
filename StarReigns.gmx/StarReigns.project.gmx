@@ -29,6 +29,10 @@
     <script>scripts\scr_init.gml</script>
     <script>scripts\scr_pruneDeck.gml</script>
     <script>scripts\scr_setWeights.gml</script>
+    <script>scripts\scr_addWeights.gml</script>
+    <script>scripts\scr_multWeights.gml</script>
+    <script>scripts\scr_bulkDeck.gml</script>
+    <script>scripts\scr_limitDeck.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_basic</font>
@@ -39,16 +43,16 @@
     <object>objects\obj_dealer</object>
     <objects name="cards">
       <object>objects\obj_basicCard</object>
-      <object>objects\obj_setWeightTest</object>
       <object>objects\obj_marriedCard</object>
+      <object>objects\obj_setWeightTest</object>
       <object>objects\obj_angryCard</object>
       <object>objects\obj_angryredCard</object>
       <object>objects\obj_angryblueCard</object>
       <object>objects\obj_angrygreenCard</object>
-      <object>objects\obj_supriseCard</object>
-      <object>objects\obj_supriseredCard</object>
-      <object>objects\obj_supriseblueCard</object>
-      <object>objects\obj_suprisegreenCard</object>
+      <object>objects\obj_surpriseCard</object>
+      <object>objects\obj_surpriseredCard</object>
+      <object>objects\obj_surpriseblueCard</object>
+      <object>objects\obj_surprisegreenCard</object>
       <object>objects\obj_cookedCard</object>
     </objects>
   </objects>

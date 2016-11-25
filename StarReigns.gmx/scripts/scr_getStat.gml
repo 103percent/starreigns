@@ -1,25 +1,25 @@
 ///scr_getStat(obj_index, stat_index, retuns given stat 0 = weight, 1 = tag, 2 = set)
 
-cardindex = argument0;
-stat_index = argument1;
-stat = 0;
-weight = 10;
-tag = 'default tag';
-set = 'default set';
+var cardindex = argument0;
+var stat_index = argument1;
+var stat = 0;
+var weight = 10;
+var tag = 'default tag';
+var set = 'default set';
 
 switch (cardindex)
 {
- case obj_marriedCard:      weight = 1; tag = 'Testy1'; set = 'The Other Half'; break;
- case obj_angryCard:        weight = 1; tag = 'Testy2'; set = 'Beast Mode'; break;
- case obj_angryredCard:     weight = 100; tag = 'Red'; set = 'Beast Mode'; break;
+ case obj_marriedCard:      weight = 1; tag = 'Base'; set = 'The Other Half'; break;
+ case obj_angryCard:        weight = 1; tag = 'Base'; set = 'Beast Mode'; break;
+ case obj_angryredCard:     weight = 10; tag = 'Red'; set = 'Beast Mode'; break;
  case obj_angryblueCard:    weight = 1; tag = 'Blue'; set = 'Beast Mode'; break;
  case obj_angrygreenCard:   weight = 1; tag = 'Green'; set = 'Beast Mode'; break;
- case obj_supriseCard:      weight = 1; tag = 'Testy4'; set = 'The Fear'; break;
- case obj_supriseredCard:   weight = 50; tag = 'Red'; set = 'The Fear'; break;
- case obj_supriseblueCard:  weight = 50; tag = 'Blue'; set = 'The Fear'; break;
- case obj_suprisegreenCard: weight = 50; tag = 'Green'; set = 'The Fear'; break;
+ case obj_surpriseCard:      weight = 1; tag = 'Testy4'; set = 'The Fear'; break;
+ case obj_surpriseredCard:   weight = 50; tag = 'Red'; set = 'The Fear'; break;
+ case obj_surpriseblueCard:  weight = 50; tag = 'Blue'; set = 'The Fear'; break;
+ case obj_surprisegreenCard: weight = 50; tag = 'Green'; set = 'The Fear'; break;
  case obj_cookedCard:       weight = 1; tag = 'Testy3'; set = 'Finger Licking Good'; break;
- case obj_setWeightTest:    weight = -30; tag = 'FunctionTest'; set = 'Test Success'; break;
+ case obj_setWeightTest:    weight = -3000; tag = 'FunctionTest'; set = 'Test Success'; break;
 }
 
 switch(stat_index)
