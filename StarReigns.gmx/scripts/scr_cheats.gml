@@ -37,4 +37,8 @@ if (keyboard_check_pressed(ord("T")))
     arr_deck = scr_setWeights(arr_deck, 4, "obj_setWeightTest", 1000 );
     show_debug_message("T Pressed!")
 }
+if (keyboard_check_pressed(ord("N")))
+{
+    game_restart();
+}
 
