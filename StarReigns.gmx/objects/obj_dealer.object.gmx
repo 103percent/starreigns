@@ -116,7 +116,8 @@ if !global.dealt &amp;&amp; (drawlimit &lt;= 0)
             <kind>1</kind>
             <string>///display 'decked' if decked, and some debug stuff
 
-draw_text(x,y, "cards in deck = " + string(array_height_2d(arr_deck)));
+draw_text(x,y, "Cards in deck = " + string(array_height_2d(arr_deck)));
+draw_text(x, y + 50, "Cards remaining = " + string(drawlimit));
 
 if decked
     {
