@@ -29,6 +29,7 @@
 
 waittime = 1
 decked = false;
+drawlimit = 3;
 arr_deck = scr_buildDeck();
 cardcount = (array_height_2d(arr_deck) - 1);
 alarm[0] = 30*waittime;
@@ -57,6 +58,7 @@ alarm[0] = 30*waittime;
             <string>/// deal a card
 
 scr_deal(arr_deck);
+drawlimit -= 1;
 </string>
           </argument>
         </arguments>
@@ -81,10 +83,14 @@ scr_deal(arr_deck);
             <kind>1</kind>
             <string>/// Check for card, then start the countdown to dealing.
 
-if !global.dealt
+if !global.dealt &amp;&amp; (drawlimit &gt; 0)
 {
  alarm[0] = 30*waittime;
  global.dealt = true;
+}
+if !global.dealt &amp;&amp; (drawlimit &lt;= 0)
+{
+    decked = true;
 }
 </string>
           </argument>
