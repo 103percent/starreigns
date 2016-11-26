@@ -7,11 +7,7 @@ global.core2 += arr_positive[2];
 global.core3 += arr_positive[3];
 
 //Visual aid
-shot = instance_create(x, y, obj_shot)
-  with shot
-    {
-     hspeed = +10
-    }
+scr_cardSwipeAnim(1);
 // save results, Destroyself and trigger dealer
 if trigger_prune_pos
 {

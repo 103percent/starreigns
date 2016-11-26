@@ -8,11 +8,7 @@ global.core2 -= arr_negative[2];
 global.core3 -= arr_negative[3];
 
 //Visual aid
-shot = instance_create(x, y, obj_shot)
-  with shot
-    {
-     hspeed = -10
-    }
+scr_cardSwipeAnim(-1);
 //Check deck effect
 if trigger_prune_neg
 {

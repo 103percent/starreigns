@@ -39,6 +39,7 @@
     <script>scripts\scr_drawHud.gml</script>
     <script>scripts\scr_cheats.gml</script>
     <script>scripts\scr_drawCard.gml</script>
+    <script>scripts\scr_cardSwipeAnim.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_basic</font>
