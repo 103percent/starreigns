@@ -17,6 +17,10 @@ cardset = "basic";
 cardstring = "Placeholder Card Text Here";
 tags = "basic";
 
+//set default Yes/No
+pos_option = 'Yes Please'
+neg_option = 'Go fuck yourself'
+
 // set default impact arrays for positive and negative
 arr_positive[3] = 10
 arr_positive[2] = 10

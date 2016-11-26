@@ -77,17 +77,7 @@ scr_input();
             <kind>1</kind>
             <string>///Draw self and test properties
 
-//Draw sprite
-draw_self();
-
-
-//Draw test properties
-draw_set_colour(c_blue);
-draw_set_font(fnt_basic);
-draw_text(x, y - 70, "set = " + cardset);
-draw_text(x, y + 70, cardstring);
-draw_text(x, y + 100, "tags = " + tags);
-
+scr_drawCard();
 </string>
           </argument>
         </arguments>

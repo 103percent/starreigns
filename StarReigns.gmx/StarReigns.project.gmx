@@ -12,6 +12,7 @@
     <sprite>sprites\spr_cooked</sprite>
     <sprite>sprites\spr_suprise</sprite>
     <sprite>sprites\spr_married</sprite>
+    <sprite>sprites\spr_arrow</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -37,6 +38,7 @@
     <script>scripts\scr_drawMenu.gml</script>
     <script>scripts\scr_drawHud.gml</script>
     <script>scripts\scr_cheats.gml</script>
+    <script>scripts\scr_drawCard.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_basic</font>

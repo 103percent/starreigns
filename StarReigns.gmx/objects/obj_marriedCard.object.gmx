@@ -43,6 +43,8 @@
 
 //set new Properties
 cardstring = "Wedding bells are here!";
+pos_option = 'Ding-a-ling baby!'
+neg_option = 'Oh jesus lord no!'
 
 // set new impacts
 arr_positive[3] = 5

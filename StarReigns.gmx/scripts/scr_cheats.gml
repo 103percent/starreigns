@@ -12,6 +12,7 @@ if (keyboard_check_pressed(ord("B")))
     var crit = 'Red';
     arr_deck = scr_bulkDeck(arr_deck, 'Red', 1)
     show_debug_message('Adding cards matching = ' + crit);
+    
     scr_setWeights(arr_deck, 0, obj_setWeightTest, 1000);
     show_debug_message(string(scr_getStat(ds_list_find_value(arr_deck, 11),1)))
 }
