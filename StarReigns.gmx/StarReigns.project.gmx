@@ -33,11 +33,17 @@
     <script>scripts\scr_multWeights.gml</script>
     <script>scripts\scr_bulkDeck.gml</script>
     <script>scripts\scr_limitDeck.gml</script>
+    <script>scripts\scr_startMenu.gml</script>
+    <script>scripts\scr_drawMenu.gml</script>
+    <script>scripts\scr_drawHud.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_basic</font>
+    <font>fonts\fnt_start</font>
   </fonts>
   <objects name="objects">
+    <object>objects\obj_start</object>
+    <object>objects\obj_fade</object>
     <object>objects\obj_shot</object>
     <object>objects\obj_hud</object>
     <object>objects\obj_dealer</object>
@@ -57,6 +63,7 @@
     </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_start</room>
     <room>rooms\rm_main</room>
   </rooms>
   <help>

@@ -3,11 +3,38 @@
   <spriteName>&lt;undefined&gt;</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>100</depth>
-  <persistent>0</persistent>
+  <depth>-999</depth>
+  <persistent>-1</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
+    <event eventtype="0" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>/// Init fade variables
+a = 0;
+fade = 1; 
+faderate = 0.025;
+
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="8" enumb="0">
       <action>
         <libid>1</libid>
@@ -25,7 +52,26 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>scr_drawHud();
+            <string>/// run the fade
+
+a = clamp(a+(fade*faderate), 0, 1)
+
+if (a == 1)
+{
+ room_goto(rm_main);
+ fade = -1;    
+}
+
+if (a == 0) &amp;&amp; fade == -1
+{
+    instance_destroy(); 
+}
+
+draw_set_colour(c_black);
+draw_set_alpha(a);
+draw_rectangle(0,0, room_width, room_height, 0); 
+draw_set_alpha(1); 
+
 </string>
           </argument>
         </arguments>
