@@ -35,6 +35,4 @@ if keyboard_check_pressed(vk_right)
  scr_positiveImpact();
 }
 
-scr_killsave();
-
 
