@@ -19,7 +19,19 @@ switch (cardindex)
  case obj_surpriseblueCard:  weight = 50; tag = 'Blue'; set = 'The Fear'; break;
  case obj_surprisegreenCard: weight = 50; tag = 'Green'; set = 'The Fear'; break;
  case obj_cookedCard:       weight = 1; tag = 'Testy3'; set = 'Finger Licking Good'; break;
- case obj_setWeightTest:    weight = -3000; tag = 'FunctionTest'; set = 'Test Success'; break;
+ case obj_setWeightTest:    weight = -3000; tag = 'Merchant'; set = 'Test Success'; break;
+ case obj_p001_mechanic:	    weight =100;  tag = 'Merchant'; set = 'Planet001'; break;
+ case obj_p001_trader:	      weight = 250; 	tag = 'Merchant'; set = 'Planet001'; break;
+ case obj_p001_crewunion:   	weight = 100; tag = 'Crew'; set = 'Planet001'; break;
+ case obj_p001_HAL:	         	weight =100; tag = 'CPU'; set = 'Planet001'; break;	
+ case obj_p001_rumour:	      	weight =100; tag = 'Dweller'; set = 'Planet001'; break;
+ case obj_p001_engineer:	    	weight =100; tag = 'Crew'; set = 'Planet001'; break;
+ case obj_p001_bribe:	       	weight =100; tag = 'Dweller'; set = 'Planet001'; break;
+ case obj_p001_alien:	       	weight =100; tag = 'Dweller'; set = 'Planet001'; break;
+ case obj_p001_facilities:  		weight=  100; tag = 'Crew'; set = 'Planet001'; break;
+ case obj_p001_restructure: 	weight =	100; tag = 'CPU'; set = 'Planet001'; break;
+ case obj_p001_blastoff: 	weight =	-16100; tag = 'Blastoff'; set = 'Planet001'; break;
+ 
 }
 
 switch(stat_index)

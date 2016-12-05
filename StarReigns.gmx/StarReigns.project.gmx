@@ -19,18 +19,21 @@
   <backgrounds name="background"/>
   <paths name="paths"/>
   <scripts name="scripts">
-    <script>scripts\scr_input.gml</script>
     <script>scripts\scr_positiveImpact.gml</script>
     <script>scripts\scr_negativeImpact.gml</script>
     <script>scripts\scr_deal.gml</script>
     <script>scripts\scr_buildDeck.gml</script>
-    <script>scripts\scr_initCard.gml</script>
     <script>scripts\scr_savegame.gml</script>
     <script>scripts\scr_loadgame.gml</script>
     <script>scripts\scr_killsave.gml</script>
     <script>scripts\scr_getStat.gml</script>
     <script>scripts\scr_init.gml</script>
     <script>scripts\scr_pruneDeck.gml</script>
+    <scripts name="cardBehaviours">
+      <script>scripts\scr_initCard.gml</script>
+      <script>scripts\scr_input.gml</script>
+      <script>scripts\scr_drawCard.gml</script>
+    </scripts>
     <script>scripts\scr_setWeights.gml</script>
     <script>scripts\scr_addWeights.gml</script>
     <script>scripts\scr_multWeights.gml</script>
@@ -40,7 +43,6 @@
     <script>scripts\scr_drawMenu.gml</script>
     <script>scripts\scr_drawHud.gml</script>
     <script>scripts\scr_cheats.gml</script>
-    <script>scripts\scr_drawCard.gml</script>
     <script>scripts\scr_cardSwipeAnim.gml</script>
     <script>scripts\scr_setLocalNotif.gml</script>
   </scripts>
@@ -55,18 +57,33 @@
     <object>objects\obj_hud</object>
     <object>objects\obj_dealer</object>
     <objects name="cards">
+      <objects name="Planet001">
+        <object>objects\obj_p001_mechanic</object>
+        <object>objects\obj_p001_trader</object>
+        <object>objects\obj_p001_alien</object>
+        <object>objects\obj_p001_restructure</object>
+        <object>objects\obj_p001_crewunion</object>
+        <object>objects\obj_p001_bribe</object>
+        <object>objects\obj_p001_facilities</object>
+        <object>objects\obj_p001_engineer</object>
+        <object>objects\obj_p001_rumour</object>
+        <object>objects\obj_p001_HAL</object>
+        <object>objects\obj_p001_blastoff</object>
+      </objects>
       <object>objects\obj_basicCard</object>
-      <object>objects\obj_marriedCard</object>
-      <object>objects\obj_setWeightTest</object>
-      <object>objects\obj_angryCard</object>
-      <object>objects\obj_angryredCard</object>
-      <object>objects\obj_angryblueCard</object>
-      <object>objects\obj_angrygreenCard</object>
-      <object>objects\obj_surpriseCard</object>
-      <object>objects\obj_surpriseredCard</object>
-      <object>objects\obj_surpriseblueCard</object>
-      <object>objects\obj_surprisegreenCard</object>
-      <object>objects\obj_cookedCard</object>
+      <objects name="Test">
+        <object>objects\obj_marriedCard</object>
+        <object>objects\obj_angryCard</object>
+        <object>objects\obj_setWeightTest</object>
+        <object>objects\obj_angryredCard</object>
+        <object>objects\obj_angrygreenCard</object>
+        <object>objects\obj_angryblueCard</object>
+        <object>objects\obj_surpriseCard</object>
+        <object>objects\obj_surpriseredCard</object>
+        <object>objects\obj_surpriseblueCard</object>
+        <object>objects\obj_surprisegreenCard</object>
+        <object>objects\obj_cookedCard</object>
+      </objects>
     </objects>
   </objects>
   <rooms name="rooms">
