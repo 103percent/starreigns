@@ -1,4 +1,4 @@
-///scr_setLocalNotif(waittime in mins, title, message)
+///scr_setLocalNotif(waittime in sec, title, message)
 if date_get_timezone() != timezone_utc
     {
     date_set_timezone(timezone_utc);

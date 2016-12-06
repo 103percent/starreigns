@@ -25,14 +25,13 @@
     <script>scripts\scr_buildDeck.gml</script>
     <script>scripts\scr_savegame.gml</script>
     <script>scripts\scr_loadgame.gml</script>
-    <script>scripts\scr_killsave.gml</script>
-    <script>scripts\scr_getStat.gml</script>
     <script>scripts\scr_init.gml</script>
     <script>scripts\scr_pruneDeck.gml</script>
     <scripts name="cardBehaviours">
       <script>scripts\scr_initCard.gml</script>
       <script>scripts\scr_input.gml</script>
       <script>scripts\scr_drawCard.gml</script>
+      <script>scripts\scr_getStat.gml</script>
     </scripts>
     <script>scripts\scr_setWeights.gml</script>
     <script>scripts\scr_addWeights.gml</script>

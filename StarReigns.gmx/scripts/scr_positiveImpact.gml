@@ -14,6 +14,10 @@ if trigger_prune_pos
     obj_dealer.arr_deck = scr_pruneDeck(obj_dealer.arr_deck, pos_prune_cr1, pos_prune_tp1);
 }
 
+if set_weight_pos
+{
+    obj_dealer.arr_deck = scr_setWeights(obj_dealer.arr_deck, weight_pos_tp, weight_pos_cr, weight_pos_val)
+}
 
 global.dealt = false;
 scr_savegame();

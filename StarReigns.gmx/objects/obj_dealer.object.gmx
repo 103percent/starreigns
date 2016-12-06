@@ -29,7 +29,7 @@
 
 waittime = 1
 decked = false;
-drawlimit = 3;
+drawlimit = 30;
 arr_deck = scr_buildDeck();
 cardcount = (array_height_2d(arr_deck) - 1);
 alarm[0] = 30*waittime;
@@ -55,7 +55,8 @@ alarm[0] = 30*waittime;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>scr_setLocalNotif(25, 'Hello', 'This is a local notification!') 
+            <string>///Setup local notification
+scr_setLocalNotif(25, 'Hello', 'This is a local notification!') 
 </string>
           </argument>
         </arguments>

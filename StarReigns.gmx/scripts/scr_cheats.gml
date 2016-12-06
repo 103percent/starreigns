@@ -1,6 +1,5 @@
 ///scr_cheats
 
-scr_killsave();
 
 if (keyboard_check_pressed(ord("A")))
 {
@@ -37,8 +36,18 @@ if (keyboard_check_pressed(ord("T")))
     arr_deck = scr_setWeights(arr_deck, 4, "obj_setWeightTest", 1000 );
     show_debug_message("T Pressed!")
 }
+// 'N' resets the game
 if (keyboard_check_pressed(ord("N")))
 {
     game_restart();
+}
+
+// 'Space' deletes the save section for core values. Restart game for fresh save. 
+if (keyboard_check_pressed(vk_space))
+{
+ ini_open("savegame.ini");
+ ini_section_delete("values");
+ ini_close();
+ show_debug_message("Erasing Save")
 }
 

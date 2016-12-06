@@ -21,6 +21,17 @@ tags = "basic";
 pos_option = 'Yes Please'
 neg_option = 'Go fuck yourself'
 
+//set deck weight basic vals
+set_weight_pos = false;
+weight_pos_tp = 1;
+weight_pos_cr = 'Testy1';
+weight_pos_val = 10;
+
+set_weight_neg = false;
+weight_neg_tp = 1;
+weight_neg_cr = 'Testy1';
+weight_neg_val = 10;
+
 // set default impact arrays for positive and negative
 arr_positive[3] = 10
 arr_positive[2] = 10

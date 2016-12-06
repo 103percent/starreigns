@@ -14,7 +14,10 @@ if trigger_prune_neg
 {
      obj_dealer.arr_deck = scr_pruneDeck(obj_dealer.arr_deck, neg_prune_cr1, neg_prune_tp1);
 }
-    
+if set_weight_neg
+{
+    obj_dealer.arr_deck = scr_setWeights(obj_dealer.arr_deck, weight_neg_tp, weight_neg_cr, weight_neg_val)
+}
     
     
 // save results, Destroyself and trigger dealer
