@@ -29,6 +29,7 @@
 a = 0;
 fade = 1; 
 faderate = 0.025;
+faderoom = rm_main
 
 </string>
           </argument>
@@ -58,7 +59,7 @@ a = clamp(a+(fade*faderate), 0, 1)
 
 if (a == 1)
 {
- room_goto(rm_main);
+ room_goto(faderoom);
  fade = -1;    
 }
 

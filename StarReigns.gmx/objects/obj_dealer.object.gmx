@@ -57,6 +57,15 @@ alarm[0] = 30*waittime;
             <kind>1</kind>
             <string>///Setup local notification
 scr_setLocalNotif(25, 'Hello', 'This is a local notification!') 
+
+fader = instance_create(0,0, obj_fade);
+with fader 
+{
+    faderoom = rm_decked
+}    
+instance_destroy();
+
+
 </string>
           </argument>
         </arguments>

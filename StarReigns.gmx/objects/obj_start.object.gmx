@@ -27,8 +27,10 @@
             <kind>1</kind>
             <string>/// listen for clicks
 //This will eventually be replaced with controls for other elements (credits, settings etc.) 
-
-scr_startMenu();
+if (room = rm_start)
+{
+    scr_startMenu();
+}
 </string>
           </argument>
         </arguments>
@@ -52,7 +54,20 @@ scr_startMenu();
           <argument>
             <kind>1</kind>
             <string>///draw text
-scr_drawMenu();
+if (room = rm_start)
+{
+    scr_drawMenu();
+}
+if (room = rm_decked)
+{
+    draw_set_colour(c_red);
+    draw_set_font(fnt_start);
+    
+    draw_set_halign(fa_center);
+    draw_set_valign(fa_center);
+    
+    draw_text(room_width/2, room_height/2, "Come back later.");
+}
 </string>
           </argument>
         </arguments>

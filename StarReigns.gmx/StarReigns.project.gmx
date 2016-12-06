@@ -88,6 +88,7 @@
   <rooms name="rooms">
     <room>rooms\rm_start</room>
     <room>rooms\rm_main</room>
+    <room>rooms\rm_decked</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
