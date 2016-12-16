@@ -5,35 +5,24 @@
   <visible>-1</visible>
   <depth>0</depth>
   <persistent>0</persistent>
-  <parentName>&lt;undefined&gt;</parentName>
+  <parentName>obj_basicCard</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
     <event eventtype="0" enumb="0">
       <action>
         <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
+        <id>604</id>
+        <kind>0</kind>
         <userelative>0</userelative>
         <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_inherited</functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>///Init basic details
-
-scr_initCard();
-</string>
-          </argument>
-        </arguments>
       </action>
-    </event>
-    <event eventtype="3" enumb="0">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -50,34 +39,44 @@ scr_initCard();
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Call input script
-scr_input();
+            <string>///Setup Stats
 
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="8" enumb="0">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>///Draw self and test properties
+//set card string 
+cardstring = "Optimising ship software. Permission to suspend inessential processes while grounded?";
 
-scr_drawCard();
+//set option string
+pos_option = 'Affirmative?'
+neg_option = 'No'
+
+//positive choice weight impact (if any)
+set_weight_pos = false;
+weight_pos_tp = 1;
+weight_pos_cr = 'Testy1';
+weight_pos_val = 10;
+
+//negative choice weight impact (if any)
+set_weight_neg = false;
+weight_neg_tp = 1;
+weight_neg_cr = 'Testy1';
+weight_neg_val = 10;
+
+//set prune triggers (if any)
+trigger_prune_pos= false;
+trigger_prune_neg= false;
+pos_prune_cr1 = 'Testy1';  //first positive prune criteria to check
+pos_prune_tp1 = 1;         //first positive prune criteria type
+neg_prune_cr1 = 'Testy1';  //first negative prune criteria to check
+neg_prune_tp1 = 1;         //first negative prune criteria type
+
+//set core values impacts
+arr_positive[3] = 0
+arr_positive[2] = 0
+arr_positive[1] = 0
+arr_positive[0] = 30
+arr_negative[3] = 0
+arr_negative[2] = 0
+arr_negative[1] = 0
+arr_negative[0] = 15
 </string>
           </argument>
         </arguments>
