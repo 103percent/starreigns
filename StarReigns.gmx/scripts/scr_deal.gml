@@ -4,6 +4,8 @@ var deck = argument0;
 var weights;
 weights[0] = 0;
 var totalweight = 0;
+var card_x = room_width/2;
+var card_y = room_height/2 - 160;
 
 // Random Weights Method
 var q;
@@ -35,7 +37,7 @@ var topcard = deck[rand, 3];
 var cardweight = deck[rand, 0];
 var newtag = deck[rand, 1];
 var newset = deck[rand, 2];
-dealtcard = instance_create(room_width/2, room_height/2 - 160, topcard)
+dealtcard = instance_create(card_x, card_y, topcard)
 with dealtcard
     {
         tags = newtag;

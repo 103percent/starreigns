@@ -1,9 +1,14 @@
 /// scr_input()
-
 if device_mouse_check_button_pressed(0, mb_any)
 {
  dwn_x = mouse_x;
- 
+}
+if device_mouse_check_button(0, mb_any)
+{
+    var move_lim = 150
+    var loc = mouse_x;
+    var slide = loc/dwn_x;
+    x = clamp((room_width/2)*slide, move_lim, (room_width-move_lim));
 }
 
 if device_mouse_check_button_released (0, mb_any)
