@@ -27,10 +27,11 @@ weight_pos_tp = 1;
 weight_pos_cr = 'Testy1';
 weight_pos_val = 10;
 
-set_weight_neg = false;
-weight_neg_tp = 1;
-weight_neg_cr = 'Testy1';
-weight_neg_val = 10;
+//Default negative choice weight impact to match positive
+set_weight_neg = set_weight_pos
+weight_neg_tp = weight_pos_tp
+weight_neg_cr = weight_pos_cr
+weight_neg_val = weight_pos_val
 
 // set default impact arrays for positive and negative
 arr_positive[3] = 10
