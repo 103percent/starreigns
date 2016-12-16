@@ -10,6 +10,7 @@ if ini_section_exists("values")
     global.core1 = ini_read_real("values", "core1", 100);
     global.core2 = ini_read_real("values", "core2", 100);
     global.core3 = ini_read_real("values", "core3", 100);
+    global.encounter = ini_read_real("values", "encounter", 0);
 }
 else
 {
@@ -17,5 +18,6 @@ else
     global.core1 = 100;
     global.core2 = 100;
     global.core3 = 100;  
+    global.encounter = 0;
 }
 ini_close();

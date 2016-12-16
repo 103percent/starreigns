@@ -10,3 +10,4 @@ draw_text(room_width/2 + 100, room_height/2 + 120, "core0 = " + string(global.co
 draw_text(room_width/2 - 100, room_height/2 + 120, "core1 = " + string(global.core1));
 draw_text(room_width/2 + 100, room_height/2 + 140, "core2 = " + string(global.core2));
 draw_text(room_width/2 - 100, room_height/2 + 140, "core3 = " + string(global.core3));
+draw_text(room_width/2, room_height/2 + 200, "Encounter No. = " + string(global.encounter));
