@@ -33,6 +33,18 @@ weight_neg_tp = weight_pos_tp
 weight_neg_cr = weight_pos_cr
 weight_neg_val = weight_pos_val
 
+//Default positive choice weight addition (if any)
+add_weight_pos = false;
+weight_posadd_tp = 1;
+weight_posadd_cr = 'Blastoff';
+weight_posadd_val = 2300;
+
+//Default negative choice weight addition (if any)
+add_weight_neg = false;
+weight_negadd_tp = weight_posadd_tp;
+weight_negadd_cr = weight_posadd_cr;
+weight_negadd_val = weight_posadd_val;
+
 // set default impact arrays for positive and negative
 arr_positive[3] = 10
 arr_positive[2] = 10

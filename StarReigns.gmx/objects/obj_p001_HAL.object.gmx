@@ -51,14 +51,26 @@ neg_option = 'No'
 //positive choice weight impact (if any)
 set_weight_pos = false;
 weight_pos_tp = 1;
-weight_pos_cr = 'Testy1';
-weight_pos_val = 10;
+weight_pos_cr = '1';
+weight_pos_val = 0;
 
 //negative choice weight impact (if any)
 set_weight_neg = set_weight_pos;
 weight_neg_tp = weight_pos_tp;
 weight_neg_cr = weight_pos_cr;
 weight_neg_val = weight_pos_val;
+
+//positive choice weight addition (if any)
+add_weight_pos = true;
+weight_posadd_tp = 1;
+weight_posadd_cr = 'Blastoff';
+weight_posadd_val = 2300;
+
+//negative choice weight addition (if any)
+add_weight_neg = true;
+weight_negadd_tp = weight_posadd_tp;
+weight_negadd_cr = weight_posadd_cr;
+weight_negadd_val = weight_posadd_val;
 
 //set prune triggers (if any)
 trigger_prune_pos= false;

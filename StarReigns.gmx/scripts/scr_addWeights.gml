@@ -10,7 +10,8 @@ var q;
 for (q = 0; q < (array_height_2d(deck)); q++)
 {
     if (deck[q,type] == value) { deck[q,0] = deck[q,0] + weight }; 
-    show_debug_message(string(deck[q,0]));
+    if (deck[q,type] == value) show_debug_message('add');
+    if (deck[q,type] == value) show_debug_message(string(deck[q,0]));
 }
 
 return(deck); 

@@ -14,10 +14,10 @@ if ini_section_exists("values")
 }
 else
 {
-    global.core0 = 100;
-    global.core1 = 100;
-    global.core2 = 100;
-    global.core3 = 100;  
+    global.core0 = 50;
+    global.core1 = 50;
+    global.core2 = 50;
+    global.core3 = 50;  
     global.encounter = 0;
 }
 ini_close();
