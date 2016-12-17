@@ -160,7 +160,7 @@ draw_text(x, y + 50, "Cards remaining = " + string(drawlimit));
 
 if decked
     {
-        draw_text (room_width/2, room_height/2 - 160, "DECKED!")
+        draw_text (room_width/2, room_height/2 - 160, "BLASTOFF!")
     }
 </string>
           </argument>
