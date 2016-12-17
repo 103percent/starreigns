@@ -5,4 +5,5 @@ randomize();
 
 //Setup Globals
 scr_loadgame();
+global.setloss = false;
 global.dealt = false;

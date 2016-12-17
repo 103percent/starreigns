@@ -56,7 +56,7 @@ alarm[0] = 30*waittime;
           <argument>
             <kind>1</kind>
             <string>///Swtich scene and Setup local notification
-scr_setLocalNotif(25, 'Hello', 'This is a local notification!') 
+scr_setLocalNotif(30, 'Captain!', 'Captain! The Crew Needs You!') 
 fader = instance_create(0,0, obj_fade);
 with fader 
 {
@@ -128,7 +128,10 @@ if !global.dealt &amp;&amp; (drawlimit &lt;= 0)
     global.dealt = true;
     alarm[1] = 30;
 }
-
+if global.setloss = true
+{
+    scr_checkLoss();
+}
 scr_cheats(); 
 
 </string>

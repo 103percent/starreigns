@@ -4,7 +4,7 @@
   <solid>0</solid>
   <visible>-1</visible>
   <depth>0</depth>
-  <persistent>0</persistent>
+  <persistent>-1</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
@@ -47,6 +47,16 @@ if (room = rm_decked)
      show_debug_message("Erasing Save")
     }
 }
+if (room = rm_loss)
+{
+    if device_mouse_check_button_released (0, mb_any)
+    {
+        ini_open("savegame.ini");
+        ini_section_delete("values");
+        ini_close();
+        game_restart();
+    }
+}
 
 </string>
           </argument>
@@ -77,13 +87,11 @@ if (room = rm_start)
 }
 if (room = rm_decked)
 {
-    draw_set_colour(c_red);
-    draw_set_font(fnt_start);
-    
-    draw_set_halign(fa_center);
-    draw_set_valign(fa_center);
-    
-    draw_text(room_width/2, room_height/2, "Come back later.");
+    scr_drawDecked("Get some rest captain. We'll notify you if something comes up.");
+}
+if (room = rm_loss)
+{
+    scr_drawDecked("Ya done fucked it up. Tap to restart the game.");
 }
 </string>
           </argument>
