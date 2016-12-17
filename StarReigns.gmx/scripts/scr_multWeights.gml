@@ -1,4 +1,4 @@
-///scr_setWeights(<deck array object>,  <property type>, <property value>, <weight factor>)
+///scr_multWeights(<deck array object>,  <property type>, <property value>, <weight factor>)
 // returns modified deck.
 var deck = argument0;
 var type = argument1;
