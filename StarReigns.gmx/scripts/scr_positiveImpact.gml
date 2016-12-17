@@ -18,7 +18,10 @@ if set_weight_pos
 {
     obj_dealer.arr_deck = scr_setWeights(obj_dealer.arr_deck, weight_pos_tp, weight_pos_cr, weight_pos_val)
 }
-
+if set_weight_pos2
+{
+    obj_dealer.arr_deck = scr_setWeights(obj_dealer.arr_deck, weight_pos2_tp, weight_pos2_cr, weight_pos2_val)
+}
 if add_weight_pos
 {
     obj_dealer.arr_deck = scr_addWeights(obj_dealer.arr_deck, weight_posadd_tp, weight_posadd_cr, weight_posadd_val)

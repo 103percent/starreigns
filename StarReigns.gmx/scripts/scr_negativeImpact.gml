@@ -18,6 +18,10 @@ if set_weight_neg
 {
     obj_dealer.arr_deck = scr_setWeights(obj_dealer.arr_deck, weight_neg_tp, weight_neg_cr, weight_neg_val)
 }
+if set_weight_neg2
+{
+    obj_dealer.arr_deck = scr_setWeights(obj_dealer.arr_deck, weight_neg2_tp, weight_neg2_cr, weight_neg2_val)
+}
 if add_weight_neg
 {
     obj_dealer.arr_deck = scr_addWeights(obj_dealer.arr_deck, weight_negadd_tp, weight_negadd_cr, weight_negadd_val)
