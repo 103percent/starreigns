@@ -84,11 +84,11 @@ neg_prune_tp1 = 1;         //first negative prune criteria type
 arr_positive[3] = 0
 arr_positive[2] = 0
 arr_positive[1] = 0
-arr_positive[0] = 30
+arr_positive[0] = 3
 arr_negative[3] = 0
 arr_negative[2] = 0
 arr_negative[1] = 0
-arr_negative[0] = 15
+arr_negative[0] = 1
 </string>
           </argument>
         </arguments>
