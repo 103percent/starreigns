@@ -21,6 +21,7 @@
   <scripts name="scripts">
     <scripts name="UI">
       <script>scripts\scr_startMenu.gml</script>
+      <script>scripts\scr_deckedMenu.gml</script>
       <script>scripts\scr_drawDecked.gml</script>
       <script>scripts\scr_drawHud.gml</script>
       <script>scripts\scr_drawMenu.gml</script>
