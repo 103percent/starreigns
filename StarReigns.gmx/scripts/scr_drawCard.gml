@@ -20,4 +20,4 @@ draw_sprite_ext(spr_arrow, image_index, card_x - 150, card_y - 50, 1, 1, 0, -1, 
 draw_sprite_ext(spr_arrow, image_index, card_x + 150, card_y - 50, 1, 1, 180, -1, 0.5);
 
 //Draw card string 
-draw_text_ext(card_x, card_y + 140, cardstring, -1, 400);
+draw_text_ext(card_x, card_y + 150, cardstring, -1, 400);
