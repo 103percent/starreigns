@@ -21,11 +21,13 @@
   <scripts name="scripts">
     <scripts name="UI">
       <script>scripts\scr_startMenu.gml</script>
+      <script>scripts\scr_drawDecked.gml</script>
       <script>scripts\scr_drawHud.gml</script>
       <script>scripts\scr_drawMenu.gml</script>
     </scripts>
     <scripts name="cardBehaviours">
       <script>scripts\scr_cardSwipeAnim.gml</script>
+      <script>scripts\scr_callDecked.gml</script>
       <script>scripts\scr_initCard.gml</script>
       <script>scripts\scr_input.gml</script>
       <script>scripts\scr_drawCard.gml</script>
@@ -48,6 +50,7 @@
     <script>scripts\scr_loadgame.gml</script>
     <script>scripts\scr_savegame.gml</script>
     <script>scripts\scr_deal.gml</script>
+    <script>scripts\scr_checkLoss.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_basic</font>
@@ -93,6 +96,7 @@
     <room>rooms\rm_start</room>
     <room>rooms\rm_main</room>
     <room>rooms\rm_decked</room>
+    <room>rooms\rm_loss</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

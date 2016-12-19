@@ -2,8 +2,23 @@
 
 if device_mouse_check_button_pressed(0, mb_any)
 {
-    instance_create(0,0, obj_fade);
-    instance_destroy();
+    if (mouse_y > 100) && (mouse_y < 800)
+    {
+        instance_create(0,0, obj_fade);
+        instance_destroy();
+    }
+    else if mouse_y < 100
+    {
+        global.setloss = !global.setloss
+    }
+    else if mouse_y > 800
+    {
+        
+        ini_open("savegame.ini");
+        ini_section_delete("values");
+        ini_close(); 
+        game_restart();
+    }
 };
 
 

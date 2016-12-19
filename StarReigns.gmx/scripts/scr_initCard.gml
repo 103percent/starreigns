@@ -21,17 +21,27 @@ tags = "basic";
 pos_option = 'Yes Please'
 neg_option = 'Go fuck yourself'
 
-//set deck weight basic vals
+//Default positive choice weight impact
 set_weight_pos = false;
 weight_pos_tp = 1;
 weight_pos_cr = 'Testy1';
 weight_pos_val = 10;
+
+set_weight_pos2 = false;
+weight_pos2_tp = 1;
+weight_pos2_cr = 'Testy1';
+weight_pos2_val = 10;
 
 //Default negative choice weight impact to match positive
 set_weight_neg = set_weight_pos
 weight_neg_tp = weight_pos_tp
 weight_neg_cr = weight_pos_cr
 weight_neg_val = weight_pos_val
+
+set_weight_neg2 = set_weight_pos2
+weight_neg2_tp = weight_pos2_tp
+weight_neg2_cr = weight_pos2_cr
+weight_neg2_val = weight_pos2_val
 
 //Default positive choice weight addition (if any)
 add_weight_pos = false;
