@@ -16,7 +16,9 @@ for (q = 0; q < (array_height_2d(deck)); q++)
     totalweight = totalweight + deck[q, 0];
     } 
 }
-for (q = 0; q < (array_height_2d(deck)); q++)
+show_debug_message(array_length_1d(weights));
+show_debug_message(array_height_2d(deck));
+for (q = 0; q < (array_length_1d(weights)); q++)
 {
     weights[q] = weights[q]/totalweight; 
 }

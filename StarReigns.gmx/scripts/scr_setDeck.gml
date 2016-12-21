@@ -18,7 +18,7 @@ if ini_section_exists("setlist")
     else
     {
       //  ds_list_add(setlist_ds, 'Beast Mode');
-        ds_list_add(setlist_ds, 'The Fear');
+      //  ds_list_add(setlist_ds, 'The Fear');
         ds_list_add(setlist_ds, 'Planet001');
     }
 ini_close();
