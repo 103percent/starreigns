@@ -52,9 +52,12 @@ if (keyboard_check_pressed(ord("N")))
 {
     game_restart();
 }
+// Writes a setlist to a save file, in this case 'Beast Mode'.
 if (keyboard_check_pressed(ord("L")))
 {
-    scr_saveSetList();
+    var l = 'Beast Mode'
+    scr_saveSetList(l);
+    show_debug_message('Saving setlist ' + l);
 }
 
 // 'Space' deletes the save section for core values and setlist. Restart game for fresh save. 
