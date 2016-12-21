@@ -102,7 +102,7 @@ arr_negative[0] = 0
             <string>/// Get the Dealer to handle the fade. 
 
 scr_callDecked();
-
+scr_saveSetList('The Other Half'); 
 </string>
           </argument>
         </arguments>
