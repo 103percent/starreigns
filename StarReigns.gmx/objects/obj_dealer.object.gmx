@@ -30,7 +30,7 @@
 waittime = 1
 decked = false;
 drawlimit = 30;
-arr_deck = scr_buildDeck();
+arr_deck = scr_setDeck();
 cardcount = (array_height_2d(arr_deck) - 1);
 alarm[0] = 30*waittime;
 </string>

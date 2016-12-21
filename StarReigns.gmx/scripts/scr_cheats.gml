@@ -20,12 +20,14 @@ if (keyboard_check_pressed(ord("M")))
  arr_deck = scr_multWeights(arr_deck, 4, "obj_setWeightTest", -1 );
  show_debug_message("M Pressed!")
 }
-if (keyboard_check_pressed(ord("P")))
+/*
+if (keyboard_check_pressed(ord("U")))
 {
     var crit = 'The Fear'
     arr_deck = scr_pruneDeck(arr_deck, crit, 2);
     show_debug_message('Removing cards matching = ' + crit);
 }
+*/
 if (keyboard_check_pressed(ord("R")))
 {
     arr_deck = scr_buildDeck();
@@ -36,18 +38,28 @@ if (keyboard_check_pressed(ord("T")))
     arr_deck = scr_setWeights(arr_deck, 4, "obj_setWeightTest", 1000 );
     show_debug_message("T Pressed!")
 }
+if (keyboard_check_pressed(ord("P")))
+{
+    show_debug_message("Printing SetList of Current Deck")
+    var q
+    for (q = 0; q < array_height_2d(arr_deck); q++)
+    {
+        show_debug_message(arr_deck[q, 2])
+    }
+}
 // 'N' resets the game
 if (keyboard_check_pressed(ord("N")))
 {
     game_restart();
 }
+if (keyboard_check_pressed(ord("L")))
+{
+    scr_saveSetList();
+}
 
-// 'Space' deletes the save section for core values. Restart game for fresh save. 
+// 'Space' deletes the save section for core values and setlist. Restart game for fresh save. 
 if (keyboard_check_pressed(vk_space))
 {
- ini_open("savegame.ini");
- ini_section_delete("values");
- ini_close();
- show_debug_message("Erasing Save")
+ scr_wipesave();
 }
 
