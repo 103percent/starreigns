@@ -75,7 +75,7 @@ if (room = rm_start)
 }
 if (room = rm_decked)
 {
-    scr_drawDecked("Get some rest captain. We'll notify you if something comes up.");
+    scr_drawDecked("We're en-route captain. Get some rest. We'll notify you if something comes up.");
 }
 if (room = rm_loss)
 {

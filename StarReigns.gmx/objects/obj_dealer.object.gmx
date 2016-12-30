@@ -32,7 +32,10 @@ decked = false;
 drawlimit = 30;
 arr_deck = scr_setDeck();
 cardcount = (array_height_2d(arr_deck) - 1);
-alarm[0] = 30*waittime;
+alarm[0] = room_speed*waittime;
+//This is the defaut time between 'sessions' used for both notifications and scene setting
+//currently in seconds
+downtime = 30 
 </string>
           </argument>
         </arguments>
@@ -55,8 +58,10 @@ alarm[0] = 30*waittime;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Swtich scene and Setup local notification
-scr_setLocalNotif(30, 'Captain!', 'Captain! The Crew Needs You!') 
+            <string>///Save, Swtich scene and Setup local notification
+scr_setLocalNotif(downtime, 'Captain!', 'Captain! The Crew Needs You!');
+global.waittime = date_inc_second(date_current_datetime(), downtime)
+scr_savegame();
 fader = instance_create(0,0, obj_fade);
 with fader 
 {
@@ -64,7 +69,6 @@ with fader
     
 }    
 instance_destroy();
-
 
 </string>
           </argument>
