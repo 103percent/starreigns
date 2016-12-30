@@ -29,5 +29,4 @@ if add_weight_neg
     
 // save results, Destroyself and trigger dealer
 global.dealt = false;
-scr_savegame();
 instance_destroy();   

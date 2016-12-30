@@ -29,6 +29,5 @@ if add_weight_pos
 
 // save results, Destroyself and trigger dealer
 global.dealt = false;
-scr_savegame();
 instance_destroy();   
 
