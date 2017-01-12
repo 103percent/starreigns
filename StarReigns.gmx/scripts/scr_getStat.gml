@@ -31,6 +31,17 @@ switch (cardindex)
  case obj_p001_facilities:  weight=  100; tag = 'Crew'; set = 'Planet001'; break;
  case obj_p001_restructure: weight =100; tag = 'CPU'; set = 'Planet001'; break;
  case obj_p001_blastoff: weight =-16100; tag = 'Blastoff'; set = 'Planet001'; break;
+ case obj_spacebasic_wreckage:   weight =0;      tag = 'Discovery'   ; set = 'SpaceBasicSide'; break;
+ case obj_spacebasic_asteroid:   weight =100;    tag = 'Mechanic'    ; set = 'SpaceBasic'; break;
+ case obj_spacebasic_police:     weight =100;    tag = 'Authorities' ; set = 'SpaceBasic'; break;
+ case obj_spacebasic_crewbrawl:  weight =100;    tag = 'Crew'        ; set = 'SpaceBasic'; break;
+ case obj_spacebasic_pirates:    weight =100;    tag = 'Pirates'     ; set = 'SpaceBasic'; break;
+ case obj_spacebasic_spaceeye:   weight =100;    tag = 'Eyebeast'    ; set = 'SpaceBasic'; break;
+ case obj_spacebasic_virus:      weight =100;    tag = 'HAL'         ; set = 'SpaceBasic'; break;
+ case obj_spacebasic_datadealer: weight =100;    tag = 'Trader'      ; set = 'SpaceBasic'; break;
+ case obj_spacebasic_fire:       weight =100;    tag = 'Mechanic'    ; set = 'SpaceBasic'; break;
+ case obj_spacebasic_distress:   weight =100;    tag = 'Distress'    ; set = 'SpaceBasic'; break;
+ case obj_spacebasic_landing:    weight =-12600; tag = 'Landing'     ; set = 'SpaceBasic'; break;
  
 }
 

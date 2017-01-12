@@ -94,6 +94,20 @@
         <object>objects\obj_surprisegreenCard</object>
         <object>objects\obj_cookedCard</object>
       </objects>
+      <objects name="SpaceBasic">
+        <object>objects\basic</object>
+        <object>objects\obj_spacebasic_wreckage</object>
+        <object>objects\obj_spacebasic_asteroid</object>
+        <object>objects\obj_spacebasic_police</object>
+        <object>objects\obj_spacebasic_crewbrawl</object>
+        <object>objects\obj_spacebasic_pirates</object>
+        <object>objects\obj_spacebasic_spaceeye</object>
+        <object>objects\obj_spacebasic_virus</object>
+        <object>objects\obj_spacebasic_datadealer</object>
+        <object>objects\obj_spacebasic_fire</object>
+        <object>objects\obj_spacebasic_distress</object>
+        <object>objects\obj_spacebasic_landing</object>
+      </objects>
     </objects>
   </objects>
   <rooms name="rooms">
