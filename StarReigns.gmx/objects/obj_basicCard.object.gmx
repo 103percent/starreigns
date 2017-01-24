@@ -51,7 +51,7 @@ scr_initCard();
           <argument>
             <kind>1</kind>
             <string>///Call input script
-scr_input();
+scr_input(0);
 
 </string>
           </argument>

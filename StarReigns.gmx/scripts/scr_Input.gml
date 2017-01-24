@@ -1,4 +1,6 @@
-/// scr_input()
+/// scr_input(sidequest)
+sidequest = argument0;
+
 if device_mouse_check_button_pressed(0, mb_any)
 {
  dwn_x = mouse_x;
@@ -21,11 +23,11 @@ if swiping
 { 
         if dwn_x > up_x
         {
-            scr_negativeImpact();
+            scr_negativeImpact(sidequest);
         }
         else
         {
-            scr_positiveImpact();
+            scr_positiveImpact(sidequest);
         }
 
   swiping = false;
@@ -33,11 +35,11 @@ if swiping
 
 if keyboard_check_pressed(vk_left)
 {
- scr_negativeImpact();
+ scr_negativeImpact(sidequest);
 }
 if keyboard_check_pressed(vk_right)
 {
- scr_positiveImpact();
+ scr_positiveImpact(sidequest);
 }
 
 
