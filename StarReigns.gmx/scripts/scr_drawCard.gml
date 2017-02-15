@@ -5,6 +5,7 @@ var card_y = room_height/2 - 160;
 var optionWidth = 120
 
 //Draw sprite
+sprite_index = spr_basicCard;
 draw_self();
 
 

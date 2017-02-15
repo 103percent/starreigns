@@ -5,7 +5,7 @@ var weights;
 weights[0] = 0;
 var totalweight = 0;
 var card_x = room_width/2;
-var card_y = room_height/2 - 160;
+var card_y = room_height*0.44;
 
 // Random Weights Method
 var q;

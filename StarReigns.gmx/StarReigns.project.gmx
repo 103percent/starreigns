@@ -9,14 +9,17 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\spr_shot</sprite>
-    <sprite>sprites\spr_basicCard</sprite>
+    <sprite>sprites\spr_basicOld</sprite>
     <sprite>sprites\spr_angry</sprite>
     <sprite>sprites\spr_cooked</sprite>
     <sprite>sprites\spr_suprise</sprite>
     <sprite>sprites\spr_married</sprite>
     <sprite>sprites\spr_arrow</sprite>
+    <sprite>sprites\spr_basicCard</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\Bng_Main</background>
+  </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <scripts name="UI">

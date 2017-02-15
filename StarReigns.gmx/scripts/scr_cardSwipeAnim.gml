@@ -1,7 +1,7 @@
 ///scr_cardSwipeAnim(direction)
 
 var dir = argument[0]
-var movespeed = 15;
+var movespeed = 20;
 var rotation = 1;
 
 if dir = -1
