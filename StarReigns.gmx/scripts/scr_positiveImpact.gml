@@ -36,5 +36,9 @@ if add_weight_pos
 
 // save results, Destroyself and trigger dealer
 global.dealt = false;
+with obj_text
+{
+    instance_destroy();
+}
 instance_destroy();   
 

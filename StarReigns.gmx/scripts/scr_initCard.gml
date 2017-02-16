@@ -64,3 +64,6 @@ arr_negative[3] = 10
 arr_negative[2] = 10
 arr_negative[1] = 10
 arr_negative[0] = 10
+
+//set the alarm for drawing the text
+alarm[11] = 10; 

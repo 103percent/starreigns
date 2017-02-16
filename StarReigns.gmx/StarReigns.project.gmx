@@ -30,6 +30,9 @@
       <script>scripts\scr_drawMenu.gml</script>
     </scripts>
     <scripts name="cardBehaviours">
+      <script>scripts\scr_cardDialogInit.gml</script>
+      <script>scripts\scr_drawCardDialog.gml</script>
+      <script>scripts\scr_cardDialog.gml</script>
       <script>scripts\scr_cardSwipeAnim.gml</script>
       <script>scripts\scr_callDecked.gml</script>
       <script>scripts\scr_initCard.gml</script>
@@ -64,6 +67,7 @@
     <font>fonts\fnt_start</font>
   </fonts>
   <objects name="objects">
+    <object>objects\obj_text</object>
     <object>objects\obj_start</object>
     <object>objects\obj_fade</object>
     <object>objects\obj_shot</object>
