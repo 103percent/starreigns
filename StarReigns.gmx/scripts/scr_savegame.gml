@@ -7,4 +7,5 @@ ini_write_real("values", "core1", global.core1);
 ini_write_real("values", "core2", global.core2);
 ini_write_real("values", "core3", global.core3);
 ini_write_real("values", "waittime", global.waittime);
+ini_write_real("values", "sidequest", global.sidequest);
 ini_close();
