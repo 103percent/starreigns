@@ -69,18 +69,7 @@ if (room = rm_loss)
           <argument>
             <kind>1</kind>
             <string>///draw text
-if (room = rm_start)
-{
-    scr_drawMenu();
-}
-if (room = rm_decked)
-{
-    scr_drawDecked("We're en-route captain. Get some rest. We'll notify you if something comes up.");
-}
-if (room = rm_loss)
-{
-    scr_drawDecked("Ya done fucked it up. Tap to restart the game.");
-}
+scr_menuText(); 
 </string>
           </argument>
         </arguments>
