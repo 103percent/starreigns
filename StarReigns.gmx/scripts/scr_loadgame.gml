@@ -10,7 +10,7 @@ if ini_section_exists("values")
     global.core1 = ini_read_real("values", "core1", basevalue);
     global.core2 = ini_read_real("values", "core2", basevalue);
     global.core3 = ini_read_real("values", "core3", basevalue);
-    global.sidequest = ini_read_real("values", "sidequest", global.sidequest);
+    global.sidequest = ini_read_real("values", "sidequest", 0);
     global.waittime = ini_read_real("values", "waittime", date_current_datetime());
 }
 else
