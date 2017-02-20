@@ -28,6 +28,7 @@
       <script>scripts\scr_drawDecked.gml</script>
       <script>scripts\scr_drawHud.gml</script>
       <script>scripts\scr_drawMenu.gml</script>
+      <script>scripts\scr_menuText.gml</script>
     </scripts>
     <scripts name="cardBehaviours">
       <script>scripts\scr_cardDialogInit.gml</script>
