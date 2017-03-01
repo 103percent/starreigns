@@ -42,7 +42,19 @@ switch (cardindex)
  case obj_spacebasic_fire:       weight =100;    tag = 'Mechanic'    ; set = 'SpaceBasic'; break;
  case obj_spacebasic_distress:   weight =100;    tag = 'Distress'    ; set = 'SpaceBasic'; break;
  case obj_spacebasic_landing:    weight =-12600; tag = 'Landing'     ; set = 'SpaceBasic'; break;
- 
+ case obj_p002_mechanic:       weight =100; tag = 'Mechanic'    ; set = 'Planet002'; break;
+ case obj_p002_mayor:          weight =100; tag = 'Authorities' ; set = 'Planet002'; break;
+ case obj_p002_vagrant:        weight =100; tag = 'Dweller'     ; set = 'Planet002'; break;
+ case obj_p002_shootout:       weight =100; tag = 'Event'       ; set = 'Planet002'; break;
+ case obj_p002_infected:       weight =100; tag = 'Crew'        ; set = 'Planet002'; break;
+ case obj_p002_speechclass:    weight =100; tag = 'Dweller'     ; set = 'Planet002'; break;
+ case obj_p002_beasttransport: weight =100; tag = 'Dweller'     ; set = 'Planet002'; break;
+ case obj_p002_trader:         weight =100; tag = 'Merchant'    ; set = 'Planet002'; break;
+ case obj_p002_refugee:        weight =100; tag = 'Dweller'     ; set = 'Planet002'; break;
+ case obj_p002_scrapyard:      weight =100; tag = 'Location'    ; set = 'Planet002'; break;
+ case obj_p002_cat:            weight =100; tag = 'Pet'         ; set = 'Planet002'; break;
+ case obj_p002_newrecruits:    weight =100; tag = 'Crew'        ; set = 'Planet002'; break;
+ case obj_p002_blastoff: weight =-12600; tag = 'Blastoff'; set = 'Planet002'; break;
 }
 
 switch(stat_index)

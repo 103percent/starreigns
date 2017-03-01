@@ -116,6 +116,21 @@
         <object>objects\obj_spacebasic_distress</object>
         <object>objects\obj_spacebasic_landing</object>
       </objects>
+      <objects name="Planet002">
+        <object>objects\obj_p002_mechanic</object>
+        <object>objects\obj_p002_mayor</object>
+        <object>objects\obj_p002_vagrant</object>
+        <object>objects\obj_p002_shootout</object>
+        <object>objects\obj_p002_infected</object>
+        <object>objects\obj_p002_speechclass</object>
+        <object>objects\obj_p002_beasttransport</object>
+        <object>objects\obj_p002_trader</object>
+        <object>objects\obj_p002_refugee</object>
+        <object>objects\obj_p002_scrapyard</object>
+        <object>objects\obj_p002_cat</object>
+        <object>objects\obj_p002_newrecruits</object>
+        <object>objects\obj_p002_blastoff</object>
+      </objects>
     </objects>
   </objects>
   <rooms name="rooms">
