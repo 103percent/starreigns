@@ -99,10 +99,14 @@ arr_negative[0] = 0
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>/// Get the Dealer to handle the fade. 
+            <string>/// End the game
 
-scr_callDecked();
-scr_saveSetList('The Other Half'); 
+fader = instance_create(0,0, obj_fade);
+with fader 
+{
+    faderoom = rm_end
+    
+}  
 </string>
           </argument>
         </arguments>

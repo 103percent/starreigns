@@ -23,6 +23,11 @@ if (room = rm_decked)
     txt = wait;
     scr_drawDecked(txt);
 }
+if (room = rm_end)
+{
+    txt = 'This is the end of the game! Thanks for playing!'
+    scr_drawDecked(txt);
+}
 if (room = rm_loss)
 {
     if global.core0 < 0 || global.core0 > 100
