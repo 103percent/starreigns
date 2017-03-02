@@ -138,6 +138,7 @@
     <room>rooms\rm_main</room>
     <room>rooms\rm_decked</room>
     <room>rooms\rm_loss</room>
+    <room>rooms\rm_end</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

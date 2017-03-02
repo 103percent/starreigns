@@ -30,7 +30,6 @@ if device_mouse_check_button(0, mb_any)
      turn = clamp((1-dist)*rot_lim, 0, rot_lim);
      image_angle = (0 + turn);
     }
-    show_debug_message(image_angle);
     y = start_y + (move_limy*(1-dist));
     
 }
