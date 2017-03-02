@@ -4,6 +4,7 @@ var loc;
 var slide;
 var start_y = room_height*0.44;
 var move_lim = 120;
+var rot_lim = 25;
 var move_limy = 75;
 var tolerance = 30;
 
@@ -15,7 +16,23 @@ if device_mouse_check_button(0, mb_any)
 {
     loc = mouse_x;
     slide = loc/dwn_x;
+    dist = (slide)
     x = clamp((room_width/2)*slide, move_lim, (room_width-move_lim));
+    if loc >= dwn_x
+    {
+     dist = (2-slide);
+     turn = clamp((1-dist)*rot_lim, 0, rot_lim);
+     image_angle = (360-turn);
+    }
+    else if loc < dwn_x
+    {
+     dist = (slide);
+     turn = clamp((1-dist)*rot_lim, 0, rot_lim);
+     image_angle = (0 + turn);
+    }
+    show_debug_message(image_angle);
+    y = start_y + (move_limy*(1-dist));
+    
 }
 
 

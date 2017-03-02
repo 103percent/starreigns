@@ -2,12 +2,12 @@
 
 var dir = argument[0]
 var movespeed = 20;
-var rotation = 1;
+var rotation = -1;
 
 if dir = -1
 {
  movespeed = movespeed*-1
- rotation = -1;
+ rotation = 1;
 }
 
 var cardsprite = sprite_index;
