@@ -18,6 +18,7 @@ if device_mouse_check_button(0, mb_any)
     slide = loc/dwn_x;
     dist = (slide)
     x = clamp((room_width/2)*slide, move_lim, (room_width-move_lim));
+    // swipe and rotate card
     if loc >= dwn_x
     {
      dist = (2-slide);
@@ -31,6 +32,24 @@ if device_mouse_check_button(0, mb_any)
      image_angle = (0 + turn);
     }
     y = start_y + (move_limy*(1-dist));
+    
+    //display option
+    if dwn_x + tolerance < loc 
+    {
+        show_pos = true; 
+        show_neg = false;
+    }
+    else if dwn_x - tolerance > loc
+    {
+        show_pos = false;
+        show_neg = true;
+    }
+    else
+    {
+        show_pos = false;
+        show_neg = false;
+    }
+    
     
 }
 
@@ -47,6 +66,7 @@ if device_mouse_check_button_released (0, mb_any)
       {
         x = room_width/2
         y = start_y
+        image_angle = 0
       }
 }
 

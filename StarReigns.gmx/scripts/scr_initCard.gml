@@ -1,9 +1,11 @@
 /// scr_initCard
 
-//set swipe variables for input
+//set swipe variables for input and display
 swiping = false;
 dwn_x = 0;
 up_x = 0;
+show_pos = false;
+show_neg = false;
 //set defaults for prune triggers
 trigger_prune_pos= false;
 trigger_prune_neg= false;
