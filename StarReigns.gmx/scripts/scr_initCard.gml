@@ -69,3 +69,6 @@ arr_negative[0] = 10
 
 //set the alarm for drawing the text
 alarm[11] = 10; 
+
+//reduce chaces of being dealt again
+obj_dealer.arr_deck = scr_divWeight(obj_dealer.arr_deck, self.object_index);

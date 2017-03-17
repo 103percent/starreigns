@@ -34,7 +34,7 @@ if add_weight_pos
     obj_dealer.arr_deck = scr_addWeights(obj_dealer.arr_deck, weight_posadd_tp, weight_posadd_cr, weight_posadd_val)
 }
 
-// save results, Destroyself and trigger dealer
+//Destroy self and trigger dealer
 global.dealt = false;
 with obj_text
 {

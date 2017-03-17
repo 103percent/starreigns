@@ -52,6 +52,7 @@
       <script>scripts\scr_addWeights.gml</script>
       <script>scripts\scr_bulkDeck.gml</script>
       <script>scripts\scr_limitDeck.gml</script>
+      <script>scripts\scr_divWeight.gml</script>
     </scripts>
     <script>scripts\scr_cheats.gml</script>
     <script>scripts\scr_init.gml</script>
