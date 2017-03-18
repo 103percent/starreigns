@@ -1,5 +1,9 @@
 /// scr_initCard
 
+// Temp image settings
+sprite_index = spr_basicCard;
+image_blend = make_color_hsv(irandom(255), 255, 255);
+
 //set swipe variables for input and display
 swiping = false;
 dwn_x = 0;

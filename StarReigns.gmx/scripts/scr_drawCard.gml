@@ -10,7 +10,6 @@ var txt_back_w = optionWidth + 20;
 var box_padding = 20;
 
 //Draw sprite
-sprite_index = spr_basicCard;
 draw_self();
 
 

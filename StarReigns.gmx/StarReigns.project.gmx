@@ -6,7 +6,11 @@
   <NewExtensions>
     <extension index="0">extensions\GooglePlayServicesExtension</extension>
   </NewExtensions>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\sfx_shuffle</sound>
+    <sound>sound\sfx_deal1</sound>
+    <sound>sound\sfx_deal2</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_shot</sprite>
     <sprite>sprites\spr_basicOld</sprite>
@@ -63,6 +67,7 @@
     <script>scripts\scr_savegame.gml</script>
     <script>scripts\scr_saveSetList.gml</script>
     <script>scripts\scr_wipesave.gml</script>
+    <script>scripts\scr_dealSFX.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_basic</font>

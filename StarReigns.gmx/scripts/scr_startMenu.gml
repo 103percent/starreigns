@@ -17,6 +17,10 @@ if device_mouse_check_button_pressed(0, mb_any)
         else
         {
             instance_create(0,0, obj_fade);
+            if !audio_is_playing(sfx_shuffle)
+            {
+                audio_play_sound(sfx_shuffle, 10, false);
+            }
             instance_destroy();
         }
     }

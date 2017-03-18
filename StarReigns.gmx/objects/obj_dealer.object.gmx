@@ -92,7 +92,7 @@ instance_destroy();
           <argument>
             <kind>1</kind>
             <string>/// deal a card
-
+scr_dealSFX();
 scr_deal(arr_deck);
 drawlimit -= 1;
 
