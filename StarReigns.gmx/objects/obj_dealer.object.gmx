@@ -35,7 +35,7 @@ cardcount = (array_height_2d(arr_deck) - 1);
 alarm[0] = room_speed*drawtime;
 //This is the defaut time between 'sessions' used for both notifications and scene setting
 //currently in seconds
-waittime = 10 
+waittime = 30 
 </string>
           </argument>
         </arguments>

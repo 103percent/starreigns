@@ -43,6 +43,6 @@ with dealtcard
         tags = newtag;
         cardset = newset;
     }
-
+    
 //Ensure dealt
 global.dealt = true;

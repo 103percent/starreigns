@@ -16,9 +16,9 @@ draw_self();
 //Draw test properties
 draw_set_colour(c_black);
 draw_set_font(fnt_basic);
-draw_text(card_x, 60, "set = " + cardset);
+draw_text(card_x, 40, "set = " + cardset);
 //draw_text(x, y + 70, cardstring);
-draw_text(card_x, 80, "tags = " + tags);
+draw_text(card_x, 60, "tags = " + tags);
 
 draw_sprite_ext(spr_arrow, image_index, card_x - 150, card_y - 70, 1, 1, 0, -1, 0.5);
 draw_sprite_ext(spr_arrow, image_index, card_x + 150, card_y - 70, 1, 1, 180, -1, 0.5);
