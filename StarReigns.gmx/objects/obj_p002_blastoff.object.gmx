@@ -41,12 +41,11 @@
             <kind>1</kind>
             <string>///Setup Stats
 
-//set card string 
-cardstring = "Placeholder Card Text Here";
+cardstring = "Alright - Time to take off!";
 
 //set option string
-pos_option = 'Yes Please'
-neg_option = 'Go fuck yourself'
+pos_option = 'Lets do this'
+neg_option = 'Launch!'
 
 //positive choice weight impact (if any)
 set_weight_pos = false;
