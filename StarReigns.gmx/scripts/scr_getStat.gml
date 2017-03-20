@@ -54,7 +54,7 @@ switch (cardindex)
  case obj_p002_refugee:        weight =100; tag = 'Dweller'     ; set = 'Planet002'; break;
  case obj_p002_scrapyard:      weight =100; tag = 'Location'    ; set = 'Planet002'; break;
  case obj_p002_cat:            weight =100; tag = 'Pet'         ; set = 'Planet002'; break;
- case obj_p002_newrecruits:    weight =100; tag = 'Crew'        ; set = 'Planet002'; break;
+ //case obj_p002_newrecruits:    weight =100; tag = 'Crew'        ; set = 'Planet002'; break;
  case obj_p002_blastoff: weight =-12600; tag = 'Blastoff'; set = 'Planet002'; break;
 }
 
