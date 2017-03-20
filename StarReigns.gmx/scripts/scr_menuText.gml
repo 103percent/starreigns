@@ -22,6 +22,7 @@ if (room = rm_decked)
 {
     txt = wait;
     scr_drawDecked(txt);
+    scr_drawWait();
 }
 if (room = rm_end)
 {
