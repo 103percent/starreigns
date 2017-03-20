@@ -33,7 +33,7 @@
         <exetype>2</exetype>
         <functionname></functionname>
         <codestring></codestring>
-        <whoName>self</whoName>
+        <whoName>obj_p002_vagrant</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
@@ -42,11 +42,11 @@
             <string>///Setup Stats
 
 //set card string 
-cardstring = "You're due some ship upgrades. I'm thinking better targeting computers, or would your prefer better shield generators?";
+cardstring = "Please sir... spare some change. I need money to eat!";
 
 //set option string
-pos_option = 'Targeting'
-neg_option = 'Shields'
+pos_option = 'Yes, of course!'
+neg_option = '*walk on by*'
 
 //positive choice weight impact (if any)
 set_weight_pos = false;
@@ -95,11 +95,11 @@ neg_prune_tp1 = 1;         //first negative prune criteria type
 //set core values impacts
 arr_positive[3] = 0
 arr_positive[2] = 0
-arr_positive[1] = -3
-arr_positive[0] = 8
+arr_positive[1] = -6.67
+arr_positive[0] = 6.67
 arr_negative[3] = 0
-arr_negative[2] = 8
-arr_negative[1] = -3
+arr_negative[2] = 0
+arr_negative[1] = 0
 arr_negative[0] = 0
 </string>
           </argument>
