@@ -11,12 +11,12 @@ switch (cardindex)
 {
  case obj_marriedCard:      weight = 0; tag = 'Base'; set = 'The Other Half'; break;
  case obj_angryCard:        weight = 0; tag = 'Base'; set = 'Beast Mode'; break;
- case obj_angryredCard:     weight = 0; tag = 'Red'; set = 'Beast Mode'; break;
- case obj_angryblueCard:    weight = 0; tag = 'Blue'; set = 'Beast Mode'; break;
+ case obj_angryredCard:     weight = 0; tag = 'Red'; set = 'Red_One'; break;
+ case obj_angryblueCard:    weight = 0; tag = 'Blue'; set = 'Blue_One'; break;
  case obj_angrygreenCard:   weight = 0; tag = 'Green'; set = 'Beast Mode'; break;
  case obj_surpriseCard:      weight = 0; tag = 'Testy4'; set = 'The Fear'; break;
- case obj_surpriseredCard:   weight = 0; tag = 'Red'; set = 'The Fear'; break;
- case obj_surpriseblueCard:  weight = 0; tag = 'Blue'; set = 'The Fear'; break;
+ case obj_surpriseredCard:   weight = 0; tag = 'Red'; set = 'Red_One'; break;
+ case obj_surpriseblueCard:  weight = 0; tag = 'Blue'; set = 'Blue_One'; break;
  case obj_surprisegreenCard: weight = 0; tag = 'Green'; set = 'The Fear'; break;
  case obj_cookedCard:       weight = 0; tag = 'Testy3'; set = 'Finger Licking Good'; break;
  case obj_setWeightTest:    weight = -3000; tag = 'Merchant'; set = 'Test Success'; break;

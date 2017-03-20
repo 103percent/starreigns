@@ -48,6 +48,8 @@
       <sprite>sprites\spr_cat</sprite>
     </sprites>
     <sprite>sprites\spr_idiotFinger</sprite>
+    <sprite>sprites\spr_planetA</sprite>
+    <sprite>sprites\spr_planetB</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\Bng_Main</background>
@@ -98,6 +100,10 @@
     <script>scripts\scr_wipesave.gml</script>
     <script>scripts\scr_dealSFX.gml</script>
     <script>scripts\scr_idiotFinger.gml</script>
+    <script>scripts\scr_planetChoice.gml</script>
+    <script>scripts\scr_initDealer.gml</script>
+    <script>scripts\scr_initPlanet.gml</script>
+    <script>scripts\scr_goToMap.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_basic</font>
@@ -170,6 +176,10 @@
         <object>objects\obj_p002_blastoff</object>
       </objects>
     </objects>
+    <objects name="planets">
+      <object>objects\obj_planetA</object>
+      <object>objects\obj_planetB</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_start</room>
@@ -177,6 +187,7 @@
     <room>rooms\rm_decked</room>
     <room>rooms\rm_loss</room>
     <room>rooms\rm_end</room>
+    <room>rooms\rm_map</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

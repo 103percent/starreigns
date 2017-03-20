@@ -98,14 +98,9 @@ arr_negative[0] = 0
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>/// End the game
+            <string>///head to the map screen!
 
-fader = instance_create(0,0, obj_fade);
-with fader 
-{
-    faderoom = rm_end;
-    
-}  
+scr_goToMap();
 </string>
           </argument>
         </arguments>

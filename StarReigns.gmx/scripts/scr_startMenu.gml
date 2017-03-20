@@ -33,6 +33,16 @@ if device_mouse_check_button_pressed(0, mb_any)
         scr_wipesave();
         game_restart();
     }
-};
+}
+
+if (keyboard_check_pressed(ord("M")))
+{
+  fader = instance_create(0,0, obj_fade);
+            with fader 
+            {
+                faderoom = rm_map
+            }  
+            instance_destroy();
+}
 
 

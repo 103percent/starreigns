@@ -1,15 +1,18 @@
 ///scr_menuText()
 
 //Text for screens
-var wait = "We're en-route captain. Get some rest. We'll notify you if something comes up."
-var tech = "You failed to manage your tech. Tap to restart"
+//wait
+var wait = "We're en-route captain. Get some rest. We'll notify you if something comes up.";
 //core0
-var econ = "You failed to manage your cash dollah. Tap to restart."
+var tech = "You failed to manage your tech. Tap to restart";
 //core1
-var ship = "You failed to manage your ship. Tap to restart."
+var econ = "You failed to manage your cash dollah. Tap to restart.";
 //core2
-var crew = "Your crew hate you for some reason. Tap to restart."
+var ship = "You failed to manage your ship. Tap to restart.";
 //core3
+var crew = "Your crew hate you for some reason. Tap to restart.";
+//map
+var map = "Where to next Captain? Tap a planet!";
 
 
 var txt = "Ooops text missing";
@@ -48,4 +51,9 @@ if (room = rm_loss)
         txt = crew;
     }
     scr_drawDecked(txt);
+}
+if (room = rm_map)
+{
+    txt = map;
+    scr_drawDecked(txt); 
 }
