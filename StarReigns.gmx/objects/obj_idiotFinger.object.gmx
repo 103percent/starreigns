@@ -28,7 +28,7 @@
             <string>/// set speed and distance
 
 finger_speed = 3;
-finger_dist = 150;
+finger_dist = 100;
 
 hspeed = finger_speed;
 </string>
