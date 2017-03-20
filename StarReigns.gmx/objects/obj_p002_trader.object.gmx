@@ -42,11 +42,11 @@
             <string>///Setup Stats
 
 //set card string 
-cardstring = "You're due some ship upgrades. I'm thinking better targeting computers, or would your prefer better shield generators?";
+cardstring = "Here's your profit from selling cargo, would you like to give your crew a bonus?";
 
 //set option string
-pos_option = 'Targeting'
-neg_option = 'Shields'
+pos_option = 'They earned it!'
+neg_option = 'Nope!'
 
 //positive choice weight impact (if any)
 set_weight_pos = false;
@@ -93,13 +93,13 @@ neg_prune_cr1 = 'Testy1';  //first negative prune criteria to check
 neg_prune_tp1 = 1;         //first negative prune criteria type
 
 //set core values impacts
-arr_positive[3] = 0
+arr_positive[3] = 6.67
 arr_positive[2] = 0
-arr_positive[1] = -3
-arr_positive[0] = 8
+arr_positive[1] = 13.33
+arr_positive[0] = 0
 arr_negative[3] = 0
-arr_negative[2] = 8
-arr_negative[1] = -3
+arr_negative[2] = 0
+arr_negative[1] = 16.67
 arr_negative[0] = 0
 </string>
           </argument>

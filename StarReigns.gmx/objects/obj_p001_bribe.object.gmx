@@ -60,7 +60,7 @@ weight_neg_tp = weight_pos_tp;
 weight_neg_cr = weight_pos_cr;
 weight_neg_val = weight_pos_val;
 
-set_weight_neg2 = true;
+set_weight_neg2 = true
 weight_neg2_tp = 3;
 weight_neg2_cr = obj_p001_shakedown;
 weight_neg2_val = 1000000;
