@@ -119,6 +119,7 @@
         <object>objects\obj_p001_restructure</object>
         <object>objects\obj_p001_crewunion</object>
         <object>objects\obj_p001_bribe</object>
+        <object>objects\obj_p001_shakedown</object>
         <object>objects\obj_p001_facilities</object>
         <object>objects\obj_p001_engineer</object>
         <object>objects\obj_p001_rumour</object>

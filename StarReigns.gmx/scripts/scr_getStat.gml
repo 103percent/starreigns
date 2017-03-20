@@ -26,7 +26,8 @@ switch (cardindex)
  case obj_p001_HAL:         weight =100; tag = 'CPU'; set = 'Planet001'; break;
  case obj_p001_rumour:      weight =100; tag = 'Dweller'; set = 'Planet001'; break;
  case obj_p001_engineer:    weight =100; tag = 'Crew'; set = 'Planet001'; break;
- case obj_p001_bribe:       weight =100; tag = 'Dweller'; set = 'Planet001'; break;
+ case obj_p001_bribe:       weight =100; tag = 'Authorities'; set = 'Planet001'; break;
+ case obj_p001_shakedown:       weight =0; tag = 'Authorities'; set = 'Planet001'; break;
  case obj_p001_alien:       weight =100; tag = 'Dweller'; set = 'Planet001'; break;
  case obj_p001_facilities:  weight=  100; tag = 'Crew'; set = 'Planet001'; break;
  case obj_p001_restructure: weight =100; tag = 'CPU'; set = 'Planet001'; break;

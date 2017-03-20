@@ -42,28 +42,23 @@
             <string>///Setup Stats
 
 //set card string 
-cardstring = "If you want to keep the law on your side, it would help to pay your *unofficial dues*, captain.";
+cardstring = "I'd expect no more co-operation from someone with a busted tail-light... *smash* ... that'll be a hefty fine right there";
 
 //set option string
-pos_option = 'Take my money'
-neg_option = 'Get lost'
+pos_option = 'Oh...'
+neg_option = 'Wait... but...'
 
 //positive choice weight impact (if any)
-set_weight_pos = false;
-weight_pos_tp = 1;
-weight_pos_cr = 'Testy1';
-weight_pos_val = 10;
+set_weight_pos = true;
+weight_pos_tp = 3;
+weight_pos_cr = obj_p001_shakedown;
+weight_pos_val = 0;
 
 //negative choice weight impact (if any)
 set_weight_neg = set_weight_pos;
 weight_neg_tp = weight_pos_tp;
 weight_neg_cr = weight_pos_cr;
 weight_neg_val = weight_pos_val;
-
-set_weight_neg2 = true;
-weight_neg2_tp = 3;
-weight_neg2_cr = obj_p001_shakedown;
-weight_neg2_val = 1000000;
 
 //positive choice weight addition (if any)
 add_weight_pos = true;
@@ -92,7 +87,7 @@ arr_positive[1] = -10
 arr_positive[0] = 0
 arr_negative[3] = 0
 arr_negative[2] = 0
-arr_negative[1] = 0
+arr_negative[1] = -10
 arr_negative[0] = 0
 </string>
           </argument>
