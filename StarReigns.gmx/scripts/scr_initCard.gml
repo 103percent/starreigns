@@ -74,4 +74,7 @@ arr_negative[0] = 10
 alarm[11] = 10; 
 
 //reduce chaces of being dealt again
-obj_dealer.arr_deck = scr_divWeight(obj_dealer.arr_deck, self.object_index);
+//obj_dealer.arr_deck = scr_divWeight(obj_dealer.arr_deck, self.object_index);
+
+//Stop card being dealt again
+obj_dealer.arr_deck = scr_setWeights(obj_dealer.arr_deck, 3, self.object_index, 0);

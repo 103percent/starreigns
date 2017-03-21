@@ -6,7 +6,7 @@ var start_y = room_height*0.44;
 var move_lim = 120;
 var rot_lim = 25;
 var move_limy = 75;
-var tolerance = 30;
+var tolerance = 20;
 
 if device_mouse_check_button_pressed(0, mb_any)
 {
