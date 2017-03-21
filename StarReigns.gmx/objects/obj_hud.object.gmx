@@ -25,7 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>scr_drawHud();
+            <string>///call draw script
+
+scr_drawHud();
 </string>
           </argument>
         </arguments>
