@@ -39,6 +39,7 @@ switch (cardindex)
  case obj_spacebasic_pirates:    weight =100;    tag = 'Pirates'     ; set = 'SpaceBasic'; break;
  case obj_spacebasic_spaceeye:   weight =100;    tag = 'Eyebeast'    ; set = 'SpaceBasic'; break;
  case obj_spacebasic_virus:      weight =100;    tag = 'HAL'         ; set = 'SpaceBasic'; break;
+ case obj_spacebasic_jacoopsie:       weight =0; tag = 'Mechanic'; set = 'SpaceBasic'; break;
  case obj_spacebasic_datadealer: weight =100;    tag = 'Trader'      ; set = 'SpaceBasic'; break;
  case obj_spacebasic_fire:       weight =100;    tag = 'Mechanic'    ; set = 'SpaceBasic'; break;
  case obj_spacebasic_distress:   weight =100;    tag = 'Distress'    ; set = 'SpaceBasic'; break;
@@ -50,6 +51,7 @@ switch (cardindex)
  case obj_p002_infected:       weight =100; tag = 'Crew'        ; set = 'Planet002'; break;
  case obj_p002_speechclass:    weight =100; tag = 'Dweller'     ; set = 'Planet002'; break;
  case obj_p002_beasttransport: weight =100; tag = 'Dweller'     ; set = 'Planet002'; break;
+  case obj_p002_wolfchicken: weight =0; tag = 'Crew'     ; set = 'Planet002'; break;
  case obj_p002_trader:         weight =100; tag = 'Merchant'    ; set = 'Planet002'; break;
  case obj_p002_refugee:        weight =100; tag = 'Dweller'     ; set = 'Planet002'; break;
  case obj_p002_scrapyard:      weight =100; tag = 'Location'    ; set = 'Planet002'; break;

@@ -155,6 +155,7 @@
         <object>objects\obj_spacebasic_pirates</object>
         <object>objects\obj_spacebasic_spaceeye</object>
         <object>objects\obj_spacebasic_virus</object>
+        <object>objects\obj_spacebasic_jacoopsie</object>
         <object>objects\obj_spacebasic_datadealer</object>
         <object>objects\obj_spacebasic_fire</object>
         <object>objects\obj_spacebasic_distress</object>
@@ -168,6 +169,7 @@
         <object>objects\obj_p002_infected</object>
         <object>objects\obj_p002_speechclass</object>
         <object>objects\obj_p002_beasttransport</object>
+        <object>objects\obj_p002_wolfchicken</object>
         <object>objects\obj_p002_trader</object>
         <object>objects\obj_p002_refugee</object>
         <object>objects\obj_p002_scrapyard</object>
