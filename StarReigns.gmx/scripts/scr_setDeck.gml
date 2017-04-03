@@ -17,7 +17,7 @@ if ini_section_exists("setlist")
     }
     else
     {
-        ds_list_add(setlist_ds, 'Planet001');
+        ds_list_add(setlist_ds, 'Tutorial');
     }
 ini_close();
 

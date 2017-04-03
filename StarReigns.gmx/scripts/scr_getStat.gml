@@ -9,6 +9,8 @@ var set = 'default set';
 
 switch (cardindex)
 {
+ case obj_dan:              weight = 0; tag = 'Tutorial'; set = 'Tutorial'; break;
+ case obj_jak:              weight = 15; tag = 'Tutorial'; set = 'Tutorial'; break;
  case obj_marriedCard:      weight = 0; tag = 'Base'; set = 'The Other Half'; break;
  case obj_angryCard:        weight = 0; tag = 'Base'; set = 'Beast Mode'; break;
  case obj_angryredCard:     weight = 0; tag = 'Red'; set = 'Red_One'; break;

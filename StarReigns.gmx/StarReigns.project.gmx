@@ -50,6 +50,10 @@
     <sprite>sprites\spr_idiotFinger</sprite>
     <sprite>sprites\spr_planetA</sprite>
     <sprite>sprites\spr_planetB</sprite>
+    <sprites name="tutorial">
+      <sprite>sprites\dan</sprite>
+      <sprite>sprites\jak</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\Bng_Main</background>
@@ -175,6 +179,10 @@
         <object>objects\obj_p002_scrapyard</object>
         <object>objects\obj_p002_cat</object>
         <object>objects\obj_p002_blastoff</object>
+      </objects>
+      <objects name="tutorial">
+        <object>objects\obj_jak</object>
+        <object>objects\obj_dan</object>
       </objects>
     </objects>
     <objects name="planets">
