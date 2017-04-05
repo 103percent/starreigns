@@ -162,7 +162,8 @@ if global.setloss = true
     scr_checkLoss();
 }
 scr_cheats(); 
-
+if (tutorial_on)
+{
 if (device_mouse_check_button_pressed(0, mb_any) || keyboard_check_pressed(vk_anykey))
 {
     if instance_exists(obj_idiotFinger)
@@ -175,6 +176,7 @@ if (device_mouse_check_button_pressed(0, mb_any) || keyboard_check_pressed(vk_an
         alarm[2] = 30*tutorial_wait;
         tutorial_count += 1;
     }
+}
 }
 </string>
           </argument>
