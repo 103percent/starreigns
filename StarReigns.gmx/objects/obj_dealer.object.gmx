@@ -51,7 +51,8 @@ scr_initDealer();
           <argument>
             <kind>1</kind>
             <string>/// trigger tutorial finger
-
+if (tutorial_on)
+{
 if (tutorial_count &lt; tutorial_max &amp;&amp; !device_mouse_check_button(0, mb_any))
 {
     instance_create(room_width/2, room_height/2 - 75, obj_idiotFinger);
@@ -60,7 +61,7 @@ else if tutorial_count &lt; tutorial_max &amp;&amp; device_mouse_check_button(0,
 {
   alarm[2] = 30*tutorial_wait
 }
-
+}
 </string>
           </argument>
         </arguments>

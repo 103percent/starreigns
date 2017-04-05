@@ -42,7 +42,7 @@
             <string>///Setup Stats
 image_blend = c_white;
 //set card string 
-cardstring = "Hello! I am le King of Numbers! BOW BEFORE ME";
+cardstring = "Hello! I'm Jak, welcome to our little game. Are you excited? Swipe my face slowly to the left or to the right to respond.";
 
 //set option string
 pos_option = 'Lol whut?'
@@ -72,11 +72,16 @@ neg_prune_tp1 = 1;         //first negative prune criteria type
 arr_positive[3] = 0
 arr_positive[2] = 0
 arr_positive[1] = 0
-arr_positive[0] = 0
+arr_positive[0] = 45
 arr_negative[3] = 0
 arr_negative[2] = 0
 arr_negative[1] = 0
-arr_negative[0] = 0
+arr_negative[0] = 45
+
+with (obj_dealer)
+{
+    tutorial_on = true;
+}
 </string>
           </argument>
         </arguments>
